@@ -199,7 +199,7 @@
         "counter_frame":"+2",
         "range":"중단",
         "damage":"20",
-        "extra":"히트 시 스타버스트 상태로\nAP정면 지상 히트 시AP←→RP를 입력하면 파워 상승"
+        "extra":""
       },
       {
         "name":"크림슨 델타 엣지2",
@@ -221,7 +221,18 @@
         "counter_frame":"D",
         "range":"잡기",
         "damage":"20,10,18",
-        "extra":""
+        "extra":"히트 시 스타버스트 상태로\nAP←→RP 입력 시 파워 상승"
+      },
+      {
+        "name":"크림슨 델타 엣지3(파워 상승)",
+        "command":"AP정면 지상 히트 시APRP",
+        "start_frame":"17",
+        "guard_frame":"-",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"잡기",
+        "damage":"20,10,25",
+        "extra":"히트 시 스타버스트 상태로"
       },
       {
         "name":"롤링 스트라이크",
@@ -401,7 +412,7 @@
       },
       {
         "name":"미스틱 레이1",
-        "command":"2LP",
+        "command":"↓LP",
         "start_frame":"17",
         "guard_frame":"-8",
         "hit_frame":"+2",
@@ -412,7 +423,7 @@
       },
       {
         "name":"미스틱 레이2",
-        "command":"2LPRP",
+        "command":"↓LPRP",
         "start_frame":"17",
         "guard_frame":"-9",
         "hit_frame":"+4",
@@ -423,7 +434,7 @@
       },
       {
         "name":"그래비티 홀1",
-        "command":"2RP",
+        "command":"↓RP",
         "start_frame":"20",
         "guard_frame":"-11",
         "hit_frame":"0",
@@ -434,7 +445,7 @@
       },
       {
         "name":"그래비티 홀2",
-        "command":"2RPRP",
+        "command":"↓RPRP",
         "start_frame":"20",
         "guard_frame":"-13",
         "hit_frame":"-1",
@@ -445,7 +456,7 @@
       },
       {
         "name":"수페르비아",
-        "command":"2AP",
+        "command":"↓AP",
         "start_frame":"13",
         "guard_frame":"-18",
         "hit_frame":"D",

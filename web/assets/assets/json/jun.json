@@ -122,7 +122,7 @@
         "counter_frame":"+6",
         "range":"상단",
         "damage":"5,8",
-        "extra":"2 ~ or 8 ~입력 시 횡이동으로"
+        "extra":"↓~ or ↑~입력 시 횡이동으로"
       },
       {
         "name":"창련무~이즈모개수",
@@ -375,7 +375,7 @@
         "counter_frame":"+7(+14g)",
         "range":"중단",
         "damage":"13",
-        "extra":"2 ~ or 8 ~입력 시 횡이동으로"
+        "extra":"↓~ or ↑~입력 시 횡이동으로"
       },
       {
         "name":"신주~출운개수",
@@ -744,12 +744,34 @@
         "name":"유연채화",
         "command":"←RPLP",
         "start_frame":"14",
-        "guard_frame":"-9(0)",
-        "hit_frame":"+2(+11)",
-        "counter_frame":"+2(+11)",
+        "guard_frame":"-9",
+        "hit_frame":"+2",
+        "counter_frame":"+2",
         "range":"상단",
         "damage":"10,7",
-        "extra":"→~입력 시 환일로\n←~입력 시 미아레로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 환일로\n←~입력 시 미아레로"
+      },
+      {
+        "name":"유연채화~환일",
+        "command":"←RPLP→~",
+        "start_frame":"14",
+        "guard_frame":"0",
+        "hit_frame":"+11",
+        "counter_frame":"+11",
+        "range":"상단",
+        "damage":"10,7",
+        "extra":"환일로"
+      },
+      {
+        "name":"유연채화~미아레",
+        "command":"←RPLP←~",
+        "start_frame":"14",
+        "guard_frame":"0",
+        "hit_frame":"+11",
+        "counter_frame":"+11",
+        "range":"상단",
+        "damage":"10,7",
+        "extra":"미아레로"
       },
       {
         "name":"유연채화자경",
@@ -980,7 +1002,29 @@
         "counter_frame":"+3(+16)",
         "range":"중단",
         "damage":"16",
-        "extra":"→~입력 시 환일로\n←~입력 시 미아레로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 환일로\n←~입력 시 미아레로"
+      },
+      {
+        "name":"수영뒷채화1~환일",
+        "command":"→→~RP→~",
+        "start_frame":"16",
+        "guard_frame":"+1",
+        "hit_frame":"+16",
+        "counter_frame":"+16",
+        "range":"중단",
+        "damage":"16",
+        "extra":"환일로"
+      },
+      {
+        "name":"수영뒷채화1~미아레",
+        "command":"→→~RP←~",
+        "start_frame":"16",
+        "guard_frame":"+1",
+        "hit_frame":"+16",
+        "counter_frame":"+16",
+        "range":"중단",
+        "damage":"16",
+        "extra":"미아레로"
       },
       {
         "name":"수영뒷채화2",
@@ -1109,12 +1153,34 @@
         "name":"천관채화자경2",
         "command":"일어서며 LPLP",
         "start_frame":"12",
-        "guard_frame":"-9(0)",
-        "hit_frame":"+2(+11)",
-        "counter_frame":"+2(+11)",
+        "guard_frame":"-9",
+        "hit_frame":"+2",
+        "counter_frame":"+2",
         "range":"상단",
         "damage":"14,7",
-        "extra":"→~입력 시 환일로\n←~입력 시 미아레로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 환일로\n←~입력 시 미아레로"
+      },
+      {
+        "name":"천관채화자경2~환일",
+        "command":"일어서며 LPLP",
+        "start_frame":"12",
+        "guard_frame":"0",
+        "hit_frame":"+11",
+        "counter_frame":"+11",
+        "range":"상단",
+        "damage":"14,7",
+        "extra":"환일로"
+      },
+      {
+        "name":"천관채화자경2~미아레",
+        "command":"일어서며 LPLP",
+        "start_frame":"12",
+        "guard_frame":"0",
+        "hit_frame":"+11",
+        "counter_frame":"+11",
+        "range":"상단",
+        "damage":"14,7",
+        "extra":"미아레로"
       },
       {
         "name":"천관채화자경3",
@@ -1297,11 +1363,22 @@
         "command":"몸을 숙인 상태에서 ↘LK",
         "start_frame":"21",
         "guard_frame":"-19",
-        "hit_frame":"0(D)",
-        "counter_frame":"0(D)",
+        "hit_frame":"0",
+        "counter_frame":"0",
         "range":"하단",
-        "damage":"12(15)",
-        "extra":"클린 히트 효과\n()는 클린 히트 시 대미지"
+        "damage":"12",
+        "extra":"클린 히트 효과"
+      },
+      {
+        "name":"부채뒤집기(클린 히트)",
+        "command":"몸을 숙인 상태에서 ↘LK",
+        "start_frame":"21",
+        "guard_frame":"-19",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"하단",
+        "damage":"15",
+        "extra":""
       },
       {
         "name":"10단 콤보1",

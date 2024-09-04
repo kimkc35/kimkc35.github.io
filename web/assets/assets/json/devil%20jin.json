@@ -353,7 +353,7 @@
         "counter_frame":"+4",
         "range":"특수 하단,상단",
         "damage":"5,5",
-        "extra":"서있어도 가드 가능\n서서 가드 시 2타 강제 가드\n()는 앉아서 가드 시 프레임"
+        "extra":"서 있어도 가드 가능\n서서 가드 시 2타 강제 가드\n()는 앉아서 가드 시 프레임"
       },
       {
         "name":"백로아뢰야",
@@ -558,8 +558,8 @@
         "command":"↙AP",
         "start_frame":"23",
         "guard_frame":"-9",
-        "hit_frame":"+4(+7)",
-        "counter_frame":"+4(D)",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
         "range":"중단",
         "damage":"15",
         "extra":"→~입력 시 캔슬하고 모닝 크로우로"
@@ -568,12 +568,23 @@
         "name":"(진)육도귀환",
         "command":"↙AP홀드",
         "start_frame":"40~61",
-        "guard_frame":"+17g(+10)",
+        "guard_frame":"+17g",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
-        "damage":"25(42)",
-        "extra":"가드 대미지\n→~입력 시 캔슬하고 모닝 크로우로\n()는 풀홀드 시 프레임, 대미지"
+        "damage":"25",
+        "extra":"가드 대미지\n→~입력 시 캔슬하고 모닝 크로우로"
+      },
+      {
+        "name":"(진)육도귀환(풀 홀드)",
+        "command":"↙AP홀드",
+        "start_frame":"62",
+        "guard_frame":"+10",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"42",
+        "extra":""
       },
       {
         "name":"사독기장1",
@@ -591,11 +602,22 @@
         "command":"←LPRP",
         "start_frame":"12",
         "guard_frame":"-14",
-        "hit_frame":"D(-7)",
-        "counter_frame":"D(-7)",
+        "hit_frame":"D",
+        "counter_frame":"D",
         "range":"중단",
         "damage":"10,20",
-        "extra":"←~입력 시 캔슬\n()는 캔슬 시 프레임"
+        "extra":"←~입력 시 캔슬"
+      },
+      {
+        "name":"사독기장2(캔슬)",
+        "command":"←LPRP←~",
+        "start_frame":"12",
+        "guard_frame":"-18",
+        "hit_frame":"-7",
+        "counter_frame":"-7",
+        "range":"-",
+        "damage":"10",
+        "extra":""
       },
       {
         "name":"무간뇌신권1",
@@ -1501,7 +1523,7 @@
       "after_break_frame":"0",
       "damage":"35",
       "range":"상단",
-      "extra":"혹은 6 6 ~AP"
+      "extra":"혹은 →→~AP"
     },
     {
       "name":"망루 부수기",

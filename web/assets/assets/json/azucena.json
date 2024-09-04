@@ -238,12 +238,23 @@
         "name":"그루비 스트라이크2",
         "command":"LKRP",
         "start_frame":"14",
-        "guard_frame":"-12(-18)",
-        "hit_frame":"+6(-7)",
-        "counter_frame":"D(-7)",
+        "guard_frame":"-12",
+        "hit_frame":"+6",
+        "counter_frame":"D",
         "range":"중단",
         "damage":"11,18",
-        "extra":"→~입력 시 캔슬하고 리베르타도르로(히트 상태 지속 중에는 파워 상승)\n()는 캔슬 시 프레임"
+        "extra":"→~입력 시 캔슬하고 리베르타도르로(히트 상태 지속 중에는 파워 상승)"
+      },
+      {
+        "name":"그루비 스트라이크2(캔슬)~리베르타도르",
+        "command":"LKRP→~",
+        "start_frame":"14",
+        "guard_frame":"-18",
+        "hit_frame":"-7",
+        "counter_frame":"-7",
+        "range":"-",
+        "damage":"11",
+        "extra":"리베르타도르로(히트 상태 지속 중에는 파워 상승)"
       },
       {
         "name":"그루비 푸냘라다",
@@ -370,12 +381,23 @@
         "name":"티폰 파테아르2",
         "command":"→RKRK",
         "start_frame":"17",
-        "guard_frame":"-7(-19)",
-        "hit_frame":"D(-10)",
-        "counter_frame":"D(-10)",
+        "guard_frame":"-7",
+        "hit_frame":"D",
+        "counter_frame":"D",
         "range":"상단",
-        "damage":"21",
-        "extra":"히트 발동기\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "damage":"16,21",
+        "extra":"히트 발동기\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"티폰 파테아르2(캔슬)~뒤돈 자세",
+        "command":"→RKRK←~",
+        "start_frame":"17",
+        "guard_frame":"-19",
+        "hit_frame":"-10",
+        "counter_frame":"-10",
+        "range":"-",
+        "damage":"16",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"티폰 트루에노",
@@ -448,11 +470,22 @@
         "command":"↘LPRKLP",
         "start_frame":"13",
         "guard_frame":"-5",
-        "hit_frame":"D(-6)",
-        "counter_frame":"D(-6)",
+        "hit_frame":"D",
+        "counter_frame":"D",
         "range":"상단",
         "damage":"11,13,20",
-        "extra":"→~입력 시 캔슬하고 리베르타도르로\n()는 캔슬 시 프레임"
+        "extra":"→~입력 시 캔슬하고 리베르타도르로"
+      },
+      {
+        "name":"그란데 콤보3(캔슬)~리베르타도르",
+        "command":"↘LPRKLP→~",
+        "start_frame":"13",
+        "guard_frame":"-5",
+        "hit_frame":"-6",
+        "counter_frame":"-6",
+        "range":"-",
+        "damage":"11,13",
+        "extra":"리베르타도르로"
       },
       {
         "name":"풀 보디 그란데 콤보",
@@ -689,12 +722,23 @@
         "name":"더블 블렌드 템페스타드3",
         "command":"←LPLPRP",
         "start_frame":"14",
-        "guard_frame":"-5(-15)",
-        "hit_frame":"D(-10)",
-        "counter_frame":"D(-10)",
+        "guard_frame":"-5",
+        "hit_frame":"D",
+        "counter_frame":"D",
         "range":"상단",
         "damage":"14,16,20",
-        "extra":"가드 대미지\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"가드 대미지\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"더블 블렌드 템페스타드3(캔슬)~뒤돈 자세",
+        "command":"←LPLPRP←~",
+        "start_frame":"14",
+        "guard_frame":"-15",
+        "hit_frame":"-10",
+        "counter_frame":"-10",
+        "range":"-",
+        "damage":"14,16",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"밀 누디요",
@@ -1097,11 +1141,22 @@
         "command":"상대에게 등을 보일 때LPRP",
         "start_frame":"10",
         "guard_frame":"-7",
-        "hit_frame":"D(-13)",
-        "counter_frame":"D(-11)",
+        "hit_frame":"D",
+        "counter_frame":"D",
         "range":"상단",
         "damage":"9,23",
-        "extra":"→~입력 시 캔슬하고 리베르타도르로\n()는 캔슬 시 프레임"
+        "extra":"→~입력 시 캔슬하고 리베르타도르로"
+      },
+      {
+        "name":"모카 아타크 마타리2(캔슬)~리베르타도르",
+        "command":"상대에게 등을 보일 때LPRP→~",
+        "start_frame":"10",
+        "guard_frame":"-7",
+        "hit_frame":"-13",
+        "counter_frame":"-11",
+        "range":"-",
+        "damage":"9",
+        "extra":"리베르타도르로"
       },
       {
         "name":"모카 아타크 시다모",
@@ -1301,7 +1356,18 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"13,10,23",
-        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"콤보 데 칸투타3(캔슬)~뒤돈 자세",
+        "command":"일어서며 RKLPLK←~",
+        "start_frame":"11",
+        "guard_frame":"-16",
+        "hit_frame":"-8",
+        "counter_frame":"-8",
+        "range":"-",
+        "damage":"13,10",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"코세차 라티고",
@@ -1347,7 +1413,18 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"14,20",
-        "extra":"가드 대미지\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"가드 대미지\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"블렌드 템페스타드2(캔슬)~뒤돈 자세",
+        "command":"리베르타도르 도중 LPRP←~",
+        "start_frame":"13",
+        "guard_frame":"-15",
+        "hit_frame":"-10",
+        "counter_frame":"-10",
+        "range":"-",
+        "damage":"14",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"골페 카푸치노",
@@ -1435,7 +1512,18 @@
         "counter_frame":"A",
         "range":"중단",
         "damage":"23",
-        "extra":"토네이도\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"토네이도\n←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"라나 바리스타(캔슬)~뒤돈 자세",
+        "command":"리베르타도르 도중 AP←~",
+        "start_frame":"-",
+        "guard_frame":"-",
+        "hit_frame":"-",
+        "counter_frame":"-",
+        "range":"-",
+        "damage":"-",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"엘니냐 하이 킥",

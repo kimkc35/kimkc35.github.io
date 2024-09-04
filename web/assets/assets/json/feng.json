@@ -104,12 +104,23 @@
         "name":"응룡파산고",
         "command":"히트 상태에서 RP+LK",
         "start_frame":"20",
-        "guard_frame":"+12(+7)",
+        "guard_frame":"+12",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단,중단",
         "damage":"22,26",
-        "extra":"가드 시 운수로(←~입력 시 서 있는 상태로)\n()는 이행 시 프레임"
+        "extra":"가드 시 운수로(←~입력 시 서 있는 상태로)"
+      },
+      {
+        "name":"응룡파산고(서 있는 상태)",
+        "command":"히트 상태에서 RP+LK←~",
+        "start_frame":"20",
+        "guard_frame":"+7",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단,중단",
+        "damage":"22,26",
+        "extra":""
       }
     ],
     "general":[
@@ -152,10 +163,21 @@
         "start_frame":"10",
         "guard_frame":"-13",
         "hit_frame":"+3",
-        "counter_frame":"+3(+5)",
+        "counter_frame":"+3",
         "range":"상단",
         "damage":"5,9,12",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n()는 이행 시 프레임"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"질화련탄~뒤돈 자세",
+        "command":"LPRPRP←~",
+        "start_frame":"10",
+        "guard_frame":"-11",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
+        "range":"상단",
+        "damage":"5,9,12",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"연환충퇴",
@@ -194,12 +216,23 @@
         "name":"삼련횡3",
         "command":"RPRKLP",
         "start_frame":"10",
-        "guard_frame":"-12(-13)",
+        "guard_frame":"-12",
         "hit_frame":"D",
-        "counter_frame":"D(-2)",
+        "counter_frame":"D",
         "range":"중단",
         "damage":"8,15,25",
-        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"삼련횡3(캔슬)~뒤돈 자세",
+        "command":"RPRKLP←~",
+        "start_frame":"10",
+        "guard_frame":"-13",
+        "hit_frame":"-2",
+        "counter_frame":"-2",
+        "range":"-",
+        "damage":"8,15",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"공작소퇴1",
@@ -228,11 +261,22 @@
         "command":"LKLKRK",
         "start_frame":"16",
         "guard_frame":"-12",
-        "hit_frame":"D(-2)",
+        "hit_frame":"D",
         "counter_frame":"D",
         "range":"하단",
         "damage":"15,18,23",
-        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"공작소퇴3(캔슬)~뒤돈 자세",
+        "command":"LKLKRK←~",
+        "start_frame":"16",
+        "guard_frame":"-13",
+        "hit_frame":"-2",
+        "counter_frame":"-2",
+        "range":"하단",
+        "damage":"15,18",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"공작창습아",
@@ -254,7 +298,18 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"27",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n()는 이행 시 프레임"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"선풍지배각1~뒤돈 자세",
+        "command":"[LKRK]←~",
+        "start_frame":"34",
+        "guard_frame":"-2",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"27",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"선풍지배각2",
@@ -359,12 +414,23 @@
         "name":"이합전퇴",
         "command":"→RK",
         "start_frame":"18",
-        "guard_frame":"-9(-5)",
+        "guard_frame":"-9",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"상단",
         "damage":"19",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"이합전퇴~뒤돈 자세",
+        "command":"→RK",
+        "start_frame":"18",
+        "guard_frame":"-5",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"19",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"우각공장파",
@@ -584,7 +650,29 @@
         "counter_frame":"+4(0,+7)",
         "range":"중단",
         "damage":"15",
-        "extra":"→~입력 시 운수로\n←~입력 시 허보로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 운수로\n←~입력 시 허보로"
+      },
+      {
+        "name":"선진소금타1~운수",
+        "command":"↙LP",
+        "start_frame":"16",
+        "guard_frame":"-16",
+        "hit_frame":"0",
+        "counter_frame":"0",
+        "range":"중단",
+        "damage":"15",
+        "extra":"운수로"
+      },
+      {
+        "name":"선진소금타1~허보",
+        "command":"↙LP",
+        "start_frame":"16",
+        "guard_frame":"-9",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
+        "range":"중단",
+        "damage":"15",
+        "extra":"허보로"
       },
       {
         "name":"선진소금타2",
@@ -651,6 +739,17 @@
         "range":"하단",
         "damage":"10,10",
         "extra":"←~입력 시 캔슬"
+      },
+      {
+        "name":"선풍련추2(캔슬)",
+        "command":"↙RPRP←~",
+        "start_frame":"20",
+        "guard_frame":"-",
+        "hit_frame":"-4",
+        "counter_frame":"-4",
+        "range":"하단",
+        "damage":"10",
+        "extra":""
       },
       {
         "name":"선풍련추3",
@@ -958,7 +1057,18 @@
         "counter_frame":"+8",
         "range":"중단",
         "damage":"33",
-        "extra":"가드 대미지\n→~입력 시 운수로\n()는 이행 시 프레임"
+        "extra":"가드 대미지\n→~입력 시 운수로"
+      },
+      {
+        "name":"분파~운수",
+        "command":"→→~LK→~",
+        "start_frame":"32",
+        "guard_frame":"+4",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
+        "range":"중단",
+        "damage":"33",
+        "extra":"가드 대미지\n운수로"
       },
       {
         "name":"연환퇴1",
@@ -1218,11 +1328,22 @@
         "command":"상대에게 등을 보일 때 LK",
         "start_frame":"32",
         "guard_frame":"+8",
-        "hit_frame":"+8(+4)",
+        "hit_frame":"+8",
         "counter_frame":"+8",
         "range":"중단",
         "damage":"33",
-        "extra":"가드 대미지\n→~입력 시 운수로\n()는 이행 시 프레임"
+        "extra":"가드 대미지\n→~입력 시 운수로"
+      },
+      {
+        "name":"분파~운수",
+        "command":"상대에게 등을 보일 때 LK→~",
+        "start_frame":"32",
+        "guard_frame":"+4",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
+        "range":"중단",
+        "damage":"33",
+        "extra":"가드 대미지\n운수로"
       },
       {
         "name":"배신쌍주",
@@ -1478,10 +1599,21 @@
         "start_frame":"14",
         "guard_frame":"-3",
         "hit_frame":"+25g",
-        "counter_frame":"+25g(+28g)",
+        "counter_frame":"+25g",
         "range":"상단",
         "damage":"18",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n()는 이행 시 프레임"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"천구수~뒤돈 자세",
+        "command":"운수 도중 RP",
+        "start_frame":"14",
+        "guard_frame":"0",
+        "hit_frame":"+28g",
+        "counter_frame":"+28g",
+        "range":"상단",
+        "damage":"18",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"와문호선각",

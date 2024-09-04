@@ -154,8 +154,19 @@
         "hit_frame":"+2",
         "counter_frame":"D",
         "range":"하단",
-        "damage":"5,20,17",
-        "extra":"홀드 가능\n()는 홀드 시 프레임, 대미지"
+        "damage":"5,10,17",
+        "extra":"홀드 가능"
+      },
+      {
+        "name":"코일 펀치 콤보(홀드)",
+        "command":"LPRP↓RP",
+        "start_frame":"10",
+        "guard_frame":"-10",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"하단",
+        "damage":"5,10,17",
+        "extra":""
       },
       {
         "name":"트러블 슈팅1",
@@ -1285,12 +1296,23 @@
         "name":"클락워크 스프링 미들",
         "command":"클락워크 도중 LK",
         "start_frame":"13",
-        "guard_frame":"-9(0)",
+        "guard_frame":"-9",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
         "damage":"20",
-        "extra":"2번 이상 회전하면 파워 상승\n()는 파워 상승 시 프레임, 대미지"
+        "extra":"2번 이상 회전하면 파워 상승"
+      },
+      {
+        "name":"클락워크 스프링 미들(파워 상승)",
+        "command":"클락워크 도중 LK",
+        "start_frame":"13",
+        "guard_frame":"0",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"22",
+        "extra":""
       },
       {
         "name":"클락워크 스프링 로우",
@@ -1318,12 +1340,23 @@
         "name":"큐트 벗 데들리",
         "command":"일어서며 AP",
         "start_frame":"20",
-        "guard_frame":"-4(0)",
+        "guard_frame":"-4",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
-        "damage":"20",
-        "extra":"호밍기\n홀드하면 파워 상승\n()는 홀드 시 프레임, 대미지"
+        "damage":"24",
+        "extra":"호밍기"
+      },
+      {
+        "name":"큐트 벗 데들리(홀드)",
+        "command":"일어서며 AP",
+        "start_frame":"39",
+        "guard_frame":"0",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"28",
+        "extra":"호밍기"
       },
       {
         "name":"새드 하운드",

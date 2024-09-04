@@ -95,12 +95,23 @@
         "name":"잽~잭해머",
         "command":"LPLP",
         "start_frame":"12",
-        "guard_frame":"-14(+4)",
-        "hit_frame":"+4(+8)",
+        "guard_frame":"-14",
+        "hit_frame":"+4",
         "counter_frame":"D",
         "range":"중단",
         "damage":"10,22",
-        "extra":"2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"↓~입력 시 감마 하울로"
+      },
+      {
+        "name":"잽~잭해머~감마 하울",
+        "command":"LPLP↓~",
+        "start_frame":"12",
+        "guard_frame":"+4",
+        "hit_frame":"+8",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"10,22",
+        "extra":"감마 하울로"
       },
       {
         "name":"잽~스터닝 훅",
@@ -315,12 +326,23 @@
         "name":"투스텝 다이1",
         "command":"→LK",
         "start_frame":"15",
-        "guard_frame":"-9(+2)",
-        "hit_frame":"+5(+16g)",
-        "counter_frame":"+5(+16g)",
+        "guard_frame":"-9",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
         "range":"중단",
         "damage":"18",
-        "extra":"혹은 일어서며 LK\n2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"혹은 일어서며 LK\n↓~입력 시 감마 하울로"
+      },
+      {
+        "name":"투스텝 다이1~감마 하울",
+        "command":"→LK↓~",
+        "start_frame":"15",
+        "guard_frame":"+2",
+        "hit_frame":"+16g",
+        "counter_frame":"+16g",
+        "range":"중단",
+        "damage":"18",
+        "extra":"혹은 일어서며 LK↓~\n감마 하울로"
       },
       {
         "name":"투스텝 다이2",
@@ -381,12 +403,23 @@
         "name":"메르카바 헤드벗",
         "command":"→AK",
         "start_frame":"22",
-        "guard_frame":"-11(-3)",
-        "hit_frame":"+9(+15g)",
-        "counter_frame":"+9(+15g)",
+        "guard_frame":"-11",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
         "range":"중단",
         "damage":"24",
-        "extra":"2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"↓~입력 시 감마 하울로"
+      },
+      {
+        "name":"메르카바 헤드벗~감마 하울",
+        "command":"→AK↓~",
+        "start_frame":"22",
+        "guard_frame":"-3",
+        "hit_frame":"+15g",
+        "counter_frame":"+15g",
+        "range":"중단",
+        "damage":"24",
+        "extra":"감마 하울로"
       },
       {
         "name":"오버히트1",
@@ -463,7 +496,7 @@
         "counter_frame":"-",
         "range":"상단",
         "damage":"13,16",
-        "extra":"홀드하면 파워 상승\n2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"홀드하면 파워 상승\n↓~입력 시 감마 하울로"
       },
       {
         "name":"코스믹 스위퍼(홀드)",
@@ -474,7 +507,7 @@
         "counter_frame":"-",
         "range":"상단",
         "damage":"13,35",
-        "extra":"토네이도\n2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"토네이도\n↓~입력 시 감마 하울로"
       },
       {
         "name":"콤바인 하베스터1",
@@ -799,12 +832,23 @@
         "name":"매드 도저2",
         "command":"←LKRP",
         "start_frame":"16",
-        "guard_frame":"-4(0)",
-        "hit_frame":"+1(+5)",
-        "counter_frame":"+1(+5)",
+        "guard_frame":"-4",
+        "hit_frame":"+1",
+        "counter_frame":"+1",
         "range":"상단",
         "damage":"14,13",
-        "extra":"2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"↓~입력 시 감마 하울로"
+      },
+      {
+        "name":"매드 도저2~감마 하울",
+        "command":"←LKRP↓~",
+        "start_frame":"16",
+        "guard_frame":"0",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
+        "range":"상단",
+        "damage":"14,13",
+        "extra":"감마 하울로"
       },
       {
         "name":"매드 도저3",
@@ -892,7 +936,7 @@
         "counter_frame":"-",
         "range":"상단",
         "damage":"14",
-        "extra":"토네이도\n혹은 ↖LP or ↑LP\n홀드하면 파워 상승\n공중에 있는 상대에게만 히트함\n2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"토네이도\n혹은 ↖LP or ↑LP\n홀드하면 파워 상승\n공중에 있는 상대에게만 히트함\n2 ~입력 시 감마 하울로"
       },
       {
         "name":"스카이 스위퍼(홀드)",
@@ -903,7 +947,7 @@
         "counter_frame":"-",
         "range":"상단",
         "damage":"35",
-        "extra":"토네이도\n↖LP홀드 or ↑LP홀드\n공중에 있는 상대에게만 히트함\n2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"토네이도\n↖LP홀드 or ↑LP홀드\n공중에 있는 상대에게만 히트함\n2 ~입력 시 감마 하울로"
       },
       {
         "name":"리액터 엘보",
@@ -942,12 +986,23 @@
         "name":"잭해머",
         "command":"→→~LP",
         "start_frame":"15",
-        "guard_frame":"-6(+4)",
+        "guard_frame":"-6",
         "hit_frame":"+8",
         "counter_frame":"D",
         "range":"중단",
         "damage":"22",
-        "extra":"2 ~입력 시 감마 하울로\n()는 이행 시 프레임"
+        "extra":"↓~입력 시 감마 하울로"
+      },
+      {
+        "name":"잭해머~감마 하울",
+        "command":"→→~LP↓~",
+        "start_frame":"15",
+        "guard_frame":"+4",
+        "hit_frame":"+8",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"22",
+        "extra":"감마 하울로"
       },
       {
         "name":"로켓 어퍼컷",
@@ -1310,7 +1365,7 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"20",
-        "extra":"2 ~입력 시 감마 하울로\n()는 이행 시 프레임\n가드 대미지"
+        "extra":"↓~입력 시 감마 하울로\n가드 대미지"
       },
       {
         "name":"겟 업 펀치",

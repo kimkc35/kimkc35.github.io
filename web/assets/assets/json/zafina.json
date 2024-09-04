@@ -177,7 +177,18 @@
         "counter_frame":"D(-9)",
         "range":"하단",
         "damage":"8,9,11",
-        "extra":"맨티스 자세로\n↓~입력 시 캔슬하고 맨티스 자세로\n()는 캔슬 시 프레임"
+        "extra":"맨티스 자세로\n↓~입력 시 캔슬하고 맨티스 자세로"
+      },
+      {
+        "name":"누켈라비3(캔슬)~맨티스 자세",
+        "command":"RPLPLK↓~",
+        "start_frame":"10",
+        "guard_frame":"-17",
+        "hit_frame":"-9",
+        "counter_frame":"-9",
+        "range":"중단",
+        "damage":"8,9",
+        "extra":"맨티스 자세로"
       },
       {
         "name":"바스테트 스크래치1",
@@ -271,12 +282,23 @@
         "name":"에티무2",
         "command":"→RPLK",
         "start_frame":"19",
-        "guard_frame":"0(-9)",
-        "hit_frame":"+9(0)",
-        "counter_frame":"+9(0)",
+        "guard_frame":"0",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
         "range":"상단",
         "damage":"17,12",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"에티무2~선 자세",
+        "command":"→RPLK←~",
+        "start_frame":"19",
+        "guard_frame":"-9",
+        "hit_frame":"0",
+        "counter_frame":"0",
+        "range":"상단",
+        "damage":"17,12",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"에티무3",
@@ -293,12 +315,23 @@
         "name":"스케어크로 사이드 킥",
         "command":"→LK",
         "start_frame":"21",
-        "guard_frame":"+3(-1)",
+        "guard_frame":"+3",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"상단",
         "damage":"28",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"스케어크로 사이드 킥~선 자세",
+        "command":"→LK←~",
+        "start_frame":"21",
+        "guard_frame":"-1",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"28",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"아크라부아멜루",
@@ -381,12 +414,23 @@
         "name":"듀얼링 시미터즈1",
         "command":"↘LK",
         "start_frame":"15",
-        "guard_frame":"-5(-10)",
-        "hit_frame":"+4(-1)",
-        "counter_frame":"+4(-1)",
+        "guard_frame":"-5",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
         "range":"중단",
         "damage":"15",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"듀얼링 시미터즈1~선 자세",
+        "command":"↘LK←~",
+        "start_frame":"15",
+        "guard_frame":"-10",
+        "hit_frame":"-1",
+        "counter_frame":"-1",
+        "range":"중단",
+        "damage":"15",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"듀얼링 시미터즈2",
@@ -426,11 +470,22 @@
         "command":"↘RKLP",
         "start_frame":"14",
         "guard_frame":"-12",
-        "hit_frame":"D(-2)",
-        "counter_frame":"D(-2)",
+        "hit_frame":"D",
+        "counter_frame":"D",
         "range":"중단",
         "damage":"14,22",
-        "extra":"히트 발동기\n가드 대미지\n히트 상태 이외에는 자신에게 대미지(회복 가능)\n↓~입력 시 캔슬하고 몸을 숙이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"히트 발동기\n가드 대미지\n히트 상태 이외에는 자신에게 대미지(회복 가능)\n↓~입력 시 캔슬하고 몸을 숙이는 상태로"
+      },
+      {
+        "name":"미아즈마 베어러2(캔슬)~앉은 자세",
+        "command":"↘RKLP↓~",
+        "start_frame":"14",
+        "guard_frame":"-12",
+        "hit_frame":"-2",
+        "counter_frame":"-2",
+        "range":"중단",
+        "damage":"14",
+        "extra":"몸을 숙이는 상태로"
       },
       {
         "name":"케르베로스 스트라이크",
@@ -513,12 +568,23 @@
         "name":"이어위그 펜서",
         "command":"↓LK",
         "start_frame":"22",
-        "guard_frame":"-15(-13)",
-        "hit_frame":"+5(+7)",
+        "guard_frame":"-15",
+        "hit_frame":"+5",
         "counter_frame":"D",
         "range":"하단",
         "damage":"14",
-        "extra":"↓~입력 시 맨티스 자세로\n()는 자세 이행 시 프레임"
+        "extra":"↓~입력 시 맨티스 자세로"
+      },
+      {
+        "name":"이어위그 펜서~맨티스 자세",
+        "command":"↓LK↓~",
+        "start_frame":"22",
+        "guard_frame":"-13",
+        "hit_frame":"+7",
+        "counter_frame":"D",
+        "range":"하단",
+        "damage":"14",
+        "extra":"맨티스 자세로"
       },
       {
         "name":"이쉬쿠르1",
@@ -579,23 +645,45 @@
         "name":"아키나케스",
         "command":"↙LK",
         "start_frame":"18",
-        "guard_frame":"-8(-11)",
-        "hit_frame":"+3(0)",
-        "counter_frame":"+3(0)",
+        "guard_frame":"-8",
+        "hit_frame":"+3",
+        "counter_frame":"+3",
         "range":"하단",
         "damage":"13",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"아키나케스~선 자세",
+        "command":"↙LK←~",
+        "start_frame":"18",
+        "guard_frame":"-11",
+        "hit_frame":"0",
+        "counter_frame":"0",
+        "range":"하단",
+        "damage":"13",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"유프라테스 캐넌1",
         "command":"↙RK",
         "start_frame":"21",
-        "guard_frame":"-12(-13)",
-        "hit_frame":"-3(-4)",
-        "counter_frame":"+3(+2)",
+        "guard_frame":"-12",
+        "hit_frame":"-3",
+        "counter_frame":"+3",
         "range":"하단",
         "damage":"14",
-        "extra":"혹은 몸을 숙인 상태에서 ↙RK\n↓~입력 시 맨티스 자세로\n()는 이행 시 프레임"
+        "extra":"혹은 몸을 숙인 상태에서 ↙RK\n↓~입력 시 맨티스 자세로"
+      },
+      {
+        "name":"유프라테스 캐넌1~맨티스 자세",
+        "command":"↙RK↓~",
+        "start_frame":"21",
+        "guard_frame":"-13",
+        "hit_frame":"-4",
+        "counter_frame":"+2",
+        "range":"하단",
+        "damage":"14",
+        "extra":"맨티스 자세로"
       },
       {
         "name":"유프라테스 캐넌2",
@@ -788,23 +876,45 @@
         "name":"갈루",
         "command":"→→~AK",
         "start_frame":"21",
-        "guard_frame":"-11(-12)",
+        "guard_frame":"-11",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단x2",
         "damage":"10,21",
-        "extra":"↓~입력 시 맨티스 자세로\n()는 이행 시 프레임[낙지]"
+        "extra":"↓~입력 시 맨티스 자세로[낙지]"
+      },
+      {
+        "name":"갈루~맨티스 자세",
+        "command":"→→~AK↓~",
+        "start_frame":"21",
+        "guard_frame":"-12",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단x2",
+        "damage":"10,21",
+        "extra":"맨티스 자세로[낙지]"
       },
       {
         "name":"리핑 사이드 킥",
         "command":"→→→~LK",
         "start_frame":"23",
-        "guard_frame":"+7(+3)",
+        "guard_frame":"+7",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
         "damage":"30",
-        "extra":"가드 대미지\n맨티스 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"가드 대미지\n맨티스 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"리핑 사이드 킥~선 자세",
+        "command":"→→→~LK←~",
+        "start_frame":"23",
+        "guard_frame":"+3",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"30",
+        "extra":"가드 대미지\n서 있는 상태로"
       },
       {
         "name":"티아마츠",
@@ -1098,23 +1208,45 @@
         "name":"라이징 클로",
         "command":"일어서며 RP",
         "start_frame":"18",
-        "guard_frame":"-14(-40)",
+        "guard_frame":"-14",
         "hit_frame":"A",
         "counter_frame":"A",
         "range":"중단",
         "damage":"20",
-        "extra":"토네이도\n↓~입력 시 맨티스 자세로\n()는 이행 시 프레임"
+        "extra":"토네이도\n↓~입력 시 맨티스 자세로"
+      },
+      {
+        "name":"라이징 클로",
+        "command":"일어서며 RP↓~",
+        "start_frame":"18",
+        "guard_frame":"-40",
+        "hit_frame":"A",
+        "counter_frame":"A",
+        "range":"중단",
+        "damage":"20",
+        "extra":"토네이도\n맨티스 자세로"
       },
       {
         "name":"샤르가즈",
         "command":"일어서며 LK",
         "start_frame":"12",
-        "guard_frame":"0(-8)",
-        "hit_frame":"+9(+1)",
-        "counter_frame":"+9(+1)",
+        "guard_frame":"0",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
         "range":"중단",
         "damage":"20",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"샤르가즈~선 자세",
+        "command":"일어서며 LK←~",
+        "start_frame":"12",
+        "guard_frame":"-8",
+        "hit_frame":"+1",
+        "counter_frame":"+1",
+        "range":"중단",
+        "damage":"20",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"바슈무",
@@ -1331,12 +1463,23 @@
         "name":"상기가 시클2",
         "command":"스케어크로 자세 도중 ↓LKLK",
         "start_frame":"18",
-        "guard_frame":"+3(-1)",
+        "guard_frame":"+3",
         "hit_frame":"T",
         "counter_frame":"T",
         "range":"상단",
         "damage":"10,28",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"상기가 시클2~선 자세",
+        "command":"스케어크로 자세 도중 ↓LKLK←~",
+        "start_frame":"18",
+        "guard_frame":"-1",
+        "hit_frame":"T",
+        "counter_frame":"T",
+        "range":"상단",
+        "damage":"10,28",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"스케어크로 슬라이드",
@@ -1511,12 +1654,23 @@
         "name":"버터플라이 캡처 콤보",
         "command":"맨티스 자세 도중 LPLK",
         "start_frame":"13",
-        "guard_frame":"0(-8)",
-        "hit_frame":"+9(+1)",
-        "counter_frame":"+9(+1)",
+        "guard_frame":"0",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
         "range":"상단",
         "damage":"12,12",
-        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로\n()는 이행 시 프레임"
+        "extra":"스케어크로 자세로\n←~입력 시 서 있는 상태로"
+      },
+      {
+        "name":"버터플라이 캡처 콤보~선 자세",
+        "command":"맨티스 자세 도중 LPLK←~",
+        "start_frame":"13",
+        "guard_frame":"-8",
+        "hit_frame":"+1",
+        "counter_frame":"+1",
+        "range":"상단",
+        "damage":"12,12",
+        "extra":"서 있는 상태로"
       },
       {
         "name":"맨티스 스팅1",
@@ -1654,12 +1808,23 @@
         "name":"네르갈즈 랜스",
         "command":"맨티스 자세 도중 ↘LK",
         "start_frame":"15",
-        "guard_frame":"-17(-14)",
+        "guard_frame":"-17",
         "hit_frame":"+19g",
         "counter_frame":"+19g",
         "range":"중단",
         "damage":"20",
-        "extra":"맨티스 자세로\nRK 입력 시 패러독스로\n()는 이행 시 프레임"
+        "extra":"맨티스 자세로\nRK 입력 시 패러독스로"
+      },
+      {
+        "name":"네르갈즈 랜스~패러독스",
+        "command":"맨티스 자세 도중 ↘LKRK",
+        "start_frame":"15",
+        "guard_frame":"-14",
+        "hit_frame":"+19g",
+        "counter_frame":"+19g",
+        "range":"중단",
+        "damage":"20",
+        "extra":"패러독스로"
       },
       {
         "name":"맨티스 슬래시",

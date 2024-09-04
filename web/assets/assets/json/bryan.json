@@ -10,7 +10,7 @@
         "counter_frame":"+2",
         "range":"중단",
         "damage":"12",
-        "extra":"파워 크래시\n히트 상태의 남은 시간을 소비\n←←입력 시 공격 캔슬\n스네이크 아이즈를 획득\n←←입력 시 공격 캔슬"
+        "extra":"파워 크래시\n히트 상태의 남은 시간을 소비\n←←입력 시 공격 캔슬\n스네이크 아이즈를 획득"
       },
       {
         "name":"원 투 넥 브레이커",
@@ -143,7 +143,7 @@
         "hit_frame":"+4",
         "counter_frame":"+4",
         "range":"상단",
-        "damage":"5",
+        "damage":"5,14",
         "extra":""
       },
       {
@@ -154,7 +154,7 @@
         "hit_frame":"+4",
         "counter_frame":"D",
         "range":"상단",
-        "damage":"5,14",
+        "damage":"5,14,18",
         "extra":""
       },
       {
@@ -165,8 +165,41 @@
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"상단",
-        "damage":"5,14,18 5,14,18,16",
-        "extra":"→LP입력 시 3타 캔슬\n↓혹은 ↑입력 시 캔슬하고 횡이동\n→~입력 시 슬리더 스텝으로 이행\n()는 이행 시 프레임"
+        "damage":"5,14,18,16",
+        "extra":"→LP입력 시 3타 캔슬\n↓ 혹은 ↑입력 시 캔슬하고 횡이동\n→~입력 시 슬리더 스텝으로 이행"
+      },
+      {
+        "name":"레어즈 댄스3(캔슬)~횡이동",
+        "command":"LPRKRPLP↓(↑)",
+        "start_frame":"10",
+        "guard_frame":"-",
+        "hit_frame":"-",
+        "counter_frame":"-",
+        "range":"상단",
+        "damage":"5,14,18",
+        "extra":""
+      },
+      {
+        "name":"레어즈 댄스3(3타 캔슬)",
+        "command":"LPRKRP→LP",
+        "start_frame":"10",
+        "guard_frame":"0",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"5,14,16",
+        "extra":"→~입력 시 슬리더 스텝으로 이행"
+      },
+      {
+        "name":"레어즈 댄스3~슬리더 스텝",
+        "command":"LPRKRPLP→~",
+        "start_frame":"10",
+        "guard_frame":"+7",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"-",
+        "damage":"5,14,18,16",
+        "extra":"슬리더 스텝으로"
       },
       {
         "name":"레어즈 댄스4",
@@ -392,12 +425,23 @@
         "name":"스네이크 바이트2",
         "command":"APLP",
         "start_frame":"17",
-        "guard_frame":"-1(0)",
-        "hit_frame":"+6(+7)",
-        "counter_frame":"+6(+7)",
+        "guard_frame":"-1",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
         "range":"상단",
         "damage":"15,15",
-        "extra":"←~입력 시 스웨이로 이행\n()는 이행 시 프레임"
+        "extra":"←~입력 시 스웨이로 이행"
+      },
+      {
+        "name":"스네이크 바이트2~스웨이",
+        "command":"APLP←~",
+        "start_frame":"17",
+        "guard_frame":"0",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
+        "range":"상단",
+        "damage":"15,15",
+        "extra":"스웨이로"
       },
       {
         "name":"스네이크 피트",
@@ -590,12 +634,23 @@
         "name":"블랙아웃 콤보2",
         "command":"↘RPLP",
         "start_frame":"13",
-        "guard_frame":"-4(-1)",
-        "hit_frame":"+5(+8)",
-        "counter_frame":"+5(+8)",
+        "guard_frame":"-4",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
         "range":"상단",
         "damage":"12,11",
-        "extra":"←~입력 시 스웨이로 이행\n()는 이행 시 프레임"
+        "extra":"←~입력 시 스웨이로 이행"
+      },
+      {
+        "name":"블랙아웃 콤보2~스웨이",
+        "command":"↘RPLP←~",
+        "start_frame":"13",
+        "guard_frame":"-1",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
+        "range":"상단",
+        "damage":"12,11",
+        "extra":"스웨이로"
       },
       {
         "name":"블랙아웃 트랩",
@@ -700,12 +755,34 @@
         "name":"해머 드라이버",
         "command":"↓AP",
         "start_frame":"17",
-        "guard_frame":"-10(-1,-3)",
-        "hit_frame":"+3(+10g,+8)",
-        "counter_frame":"+3(+10g,+8)",
+        "guard_frame":"-10",
+        "hit_frame":"+3",
+        "counter_frame":"+3",
         "range":"중단,중단",
         "damage":"10,15",
-        "extra":"→~입력 시 슬리더 스텝으로 이행\n()는 이행 시 프레임\n←~입력 시 스웨이로 이행\n()는 이행 시 프레임"
+        "extra":"→~입력 시 슬리더 스텝으로 이행\n←~입력 시 스웨이로 이행"
+      },
+      {
+        "name":"해머 드라이버~슬리더 스텝",
+        "command":"↓AP→~",
+        "start_frame":"17",
+        "guard_frame":"-1",
+        "hit_frame":"+10g",
+        "counter_frame":"+10g",
+        "range":"중단",
+        "damage":"10",
+        "extra":"슬리더 스텝으로"
+      },
+      {
+        "name":"해머 드라이버~스웨이",
+        "command":"↓AP←~",
+        "start_frame":"17",
+        "guard_frame":"-3",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
+        "range":"중단",
+        "damage":"10",
+        "extra":"스웨이로"
       },
       {
         "name":"해머 드라이버 하체트",
@@ -810,12 +887,45 @@
         "name":"더블 백 너클",
         "command":"←RPLP",
         "start_frame":"17",
-        "guard_frame":"0(+7)",
+        "guard_frame":"0",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"상단",
         "damage":"18,16",
-        "extra":"→LP 입력 시 1타 캔슬\n↓혹은 ↑입력 시 캔슬하고 횡이동 이행\n→~입력 시 슬리더 스텝으로 이행\n()는 이행 시 프레임"
+        "extra":"→LP 입력 시 1타 캔슬\n↓ 혹은 ↑입력 시 캔슬하고 횡이동 이행\n→~입력 시 슬리더 스텝으로 이행"
+      },
+      {
+        "name":"더블 백 너클(1타 캔슬)",
+        "command":"←RP→LP",
+        "start_frame":"19",
+        "guard_frame":"0",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"16",
+        "extra":"↓ 혹은 ↑입력 시 캔슬하고 횡이동 이행\n→~입력 시 슬리더 스텝으로 이행"
+      },
+      {
+        "name":"더블 백 너클(캔슬)~횡이동",
+        "command":"←RPLP↓(↑)",
+        "start_frame":"17",
+        "guard_frame":"-",
+        "hit_frame":"+4",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"18",
+        "extra":""
+      },
+      {
+        "name":"더블 백 너클~슬리더 스텝",
+        "command":"←RPLP→~",
+        "start_frame":"17",
+        "guard_frame":"+7",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"18,16",
+        "extra":"슬리더 스텝으로"
       },
       {
         "name":"핸즈 오브 둠",
@@ -854,12 +964,23 @@
         "name":"프런트 킥",
         "command":"←LK",
         "start_frame":"19",
-        "guard_frame":"-7(+1)",
-        "hit_frame":"+4(+12g)",
-        "counter_frame":"+4(+12g)",
+        "guard_frame":"-7",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
         "range":"중단",
         "damage":"12",
-        "extra":"→~입력 시 슬리더 스텝으로 이행\n()는 이행 시 프레임"
+        "extra":"→~입력 시 슬리더 스텝으로 이행"
+      },
+      {
+        "name":"프런트 킥~슬리더 스텝",
+        "command":"←LK→~",
+        "start_frame":"19",
+        "guard_frame":"+1",
+        "hit_frame":"+12g",
+        "counter_frame":"+12g",
+        "range":"중단",
+        "damage":"12",
+        "extra":"슬리더 스텝으로"
       },
       {
         "name":"프런트 킥 투 펀치",
@@ -1436,6 +1557,17 @@
         "extra":"히트 시 잡기로 이행\n히트 시 →RP 혹은 ←RP(저스트)입력 시 파워 상승"
       },
       {
+        "name":"피셔맨즈 슬램(저스트)",
+        "command":"일어서며RP",
+        "start_frame":"19",
+        "guard_frame":"-10",
+        "hit_frame":"A",
+        "counter_frame":"A",
+        "range":"중단",
+        "damage":"10,25",
+        "extra":"히트 시 잡기로 이행"
+      },
+      {
         "name":"하이 니 킥",
         "command":"일어서며LK",
         "start_frame":"12",
@@ -1745,7 +1877,7 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"13,13",
-        "extra":"↓혹은 ↑입력 시 캔슬하고 횡이동"
+        "extra":"↓ 혹은 ↑입력 시 캔슬하고 횡이동"
       },
       {
         "name":"스네이크 스핀 마하 펀치3",

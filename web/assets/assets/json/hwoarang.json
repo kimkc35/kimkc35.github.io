@@ -128,12 +128,23 @@
         "name":"레프트 라이트 콤보",
         "command":"LPRP",
         "start_frame":"10",
-        "guard_frame":"-3(+3)",
-        "hit_frame":"+6(+12g)",
-        "counter_frame":"+6(+12)",
+        "guard_frame":"-3",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
         "range":"상단",
         "damage":"5,10",
-        "extra":"LK입력 시 왼 플라밍고로\nRK입력 시 오른 플라밍고로\n()는 이행 시 프레임"
+        "extra":"LK입력 시 왼 플라밍고로\nRK입력 시 오른 플라밍고로"
+      },
+      {
+        "name":"레프트 라이트 콤보~왼(오른) 플라밍고",
+        "command":"LPRPLK(RK)",
+        "start_frame":"10",
+        "guard_frame":"+3",
+        "hit_frame":"+12g",
+        "counter_frame":"+12",
+        "range":"상단",
+        "damage":"5,10",
+        "extra":"왼(오른) 플라밍고로"
       },
       {
         "name":"리젝터",
@@ -161,12 +172,23 @@
         "name":"라이트 잽",
         "command":"RP",
         "start_frame":"10",
-        "guard_frame":"0(+3)",
-        "hit_frame":"+8(+11g)",
-        "counter_frame":"+9(+12)",
+        "guard_frame":"0",
+        "hit_frame":"+8",
+        "counter_frame":"+9",
         "range":"상단",
         "damage":"9",
-        "extra":"LK입력 시 왼 플라밍고로\nRK입력 시 오른 플라밍고로\n()는 이행 시 프레임"
+        "extra":"LK입력 시 왼 플라밍고로\nRK입력 시 오른 플라밍고로"
+      },
+      {
+        "name":"라이트 잽~왼(오른) 플라밍고",
+        "command":"RPLK(RK)",
+        "start_frame":"10",
+        "guard_frame":"+3",
+        "hit_frame":"+11g",
+        "counter_frame":"+12",
+        "range":"상단",
+        "damage":"9",
+        "extra":"왼(오른) 플라밍고로"
       },
       {
         "name":"라이트 잽 사이드 킥",
@@ -282,12 +304,23 @@
         "name":"라이트 레프트 킥 콤보2",
         "command":"RKLK",
         "start_frame":"11",
-        "guard_frame":"-6(-6)",
-        "hit_frame":"+5(+5)",
+        "guard_frame":"-6",
+        "hit_frame":"+5",
         "counter_frame":"D",
         "range":"중단",
         "damage":"14,16",
-        "extra":"→~입력 시 캔슬하고 왼 플라밍고로\n()는 이행 시 프레임[포쓰리]"
+        "extra":"→~입력 시 캔슬하고 왼 플라밍고로[포쓰리]"
+      },
+      {
+        "name":"라이트 레프트 킥 콤보2(캔슬)~왼 플라밍고",
+        "command":"RKLK→~",
+        "start_frame":"11",
+        "guard_frame":"-6",
+        "hit_frame":"+5",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"14",
+        "extra":"왼 플라밍고로[포쓰리]"
       },
       {
         "name":"라이트 킥스~오른 플라밍고",
@@ -315,12 +348,23 @@
         "name":"라이트 킥스~랩터 콤보1",
         "command":"RKRKRK",
         "start_frame":"11",
-        "guard_frame":"-2(-17)",
-        "hit_frame":"+8(-6)",
-        "counter_frame":"+8(-6)",
+        "guard_frame":"-2",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
         "range":"상단",
         "damage":"14,13,17",
-        "extra":"오른 자세로\n→~입력 시 캔슬하고 오른 플라밍고로\n()는 캔슬 시 프레임"
+        "extra":"오른 자세로\n→~입력 시 캔슬하고 오른 플라밍고로"
+      },
+      {
+        "name":"라이트 킥스~랩터 콤보1(캔슬)~오른 플라밍고",
+        "command":"RKRKRK→~",
+        "start_frame":"11",
+        "guard_frame":"-17",
+        "hit_frame":"-6",
+        "counter_frame":"-6",
+        "range":"상단",
+        "damage":"14,13",
+        "extra":"오른 플라밍고로"
       },
       {
         "name":"라이트 킥스~랩터 콤보2",
@@ -557,12 +601,23 @@
         "name":"앵클 바이터",
         "command":"↙RK",
         "start_frame":"16",
-        "guard_frame":"-12(-1)",
-        "hit_frame":"-8(+3)",
-        "counter_frame":"-1(+10)",
+        "guard_frame":"-12",
+        "hit_frame":"-8",
+        "counter_frame":"-1",
         "range":"하단",
         "damage":"14",
-        "extra":"오른 자세중에도 사용 가능\n→~입력 시 오른 플라밍고로\n()는 이행 시 프레임[발목]"
+        "extra":"오른 자세중에도 사용 가능\n→~입력 시 오른 플라밍고로[발목]"
+      },
+      {
+        "name":"앵클 바이터~오른 플라밍고",
+        "command":"↙RK→~",
+        "start_frame":"16",
+        "guard_frame":"-1",
+        "hit_frame":"+3",
+        "counter_frame":"+10",
+        "range":"하단",
+        "damage":"14",
+        "extra":"오른 플라밍고로[발목]"
       },
       {
         "name":"앵클 바이터~크레센트 킥",
@@ -1157,12 +1212,23 @@
         "name":"볼캐논2",
         "command":"오른 자세중에LKRK",
         "start_frame":"16",
-        "guard_frame":"+10(-12)",
-        "hit_frame":"+21g(-1)",
-        "counter_frame":"+21g(-1)",
+        "guard_frame":"+10",
+        "hit_frame":"+21g",
+        "counter_frame":"+21g",
         "range":"상단",
         "damage":"13,16",
-        "extra":"오른 플라밍고로\n→~입력 시 캔슬하고 오른 플라밍고로\n()는 캔슬 시 프레임"
+        "extra":"오른 플라밍고로\n→~입력 시 캔슬하고 오른 플라밍고로"
+      },
+      {
+        "name":"볼캐논2(캔슬)~오른 플라밍고",
+        "command":"오른 자세중에LKRK→~",
+        "start_frame":"16",
+        "guard_frame":"-12",
+        "hit_frame":"-1",
+        "counter_frame":"-1",
+        "range":"중단",
+        "damage":"13",
+        "extra":"오른 플라밍고로"
       },
       {
         "name":"백래시",
@@ -1179,12 +1245,23 @@
         "name":"체인소 킥1",
         "command":"오른 자세중에RK",
         "start_frame":"12",
-        "guard_frame":"-8(+5)",
-        "hit_frame":"+3(+16g)",
-        "counter_frame":"+3(+16g)",
+        "guard_frame":"-8",
+        "hit_frame":"+3",
+        "counter_frame":"+3",
         "range":"상단",
         "damage":"9",
-        "extra":"→~입력 시 오른 플라밍고로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 오른 플라밍고로"
+      },
+      {
+        "name":"체인소 킥1~오른 플라밍고",
+        "command":"오른 자세중에RK",
+        "start_frame":"12",
+        "guard_frame":"+5",
+        "hit_frame":"+16g",
+        "counter_frame":"+16g",
+        "range":"상단",
+        "damage":"9",
+        "extra":"오른 플라밍고로"
       },
       {
         "name":"체인소 킥2",
@@ -1256,12 +1333,23 @@
         "name":"칩 샷",
         "command":"오른 자세중에→LK",
         "start_frame":"14",
-        "guard_frame":"+12g(-11)",
-        "hit_frame":"+23g(0)",
-        "counter_frame":"+23g(0)",
+        "guard_frame":"+12g",
+        "hit_frame":"+23g",
+        "counter_frame":"+23g",
         "range":"상단",
         "damage":"21",
-        "extra":"왼 플라밍고로\n←~입력 시 상대에게 등을 보이는 상태로\n()는 이행 시 프레임[셋업]"
+        "extra":"왼 플라밍고로\n←~입력 시 상대에게 등을 보이는 상태로[셋업]"
+      },
+      {
+        "name":"칩 샷~뒤돈 자세",
+        "command":"오른 자세중에→LK←~",
+        "start_frame":"14",
+        "guard_frame":"-11",
+        "hit_frame":"0",
+        "counter_frame":"0",
+        "range":"상단",
+        "damage":"21",
+        "extra":"상대에게 등을 보이는 상태로[셋업]"
       },
       {
         "name":"라이트 플라밍고 페인트(오른자세)",
@@ -1300,12 +1388,23 @@
         "name":"라이트 사이드킥",
         "command":"오른 자세중에↘RK",
         "start_frame":"13",
-        "guard_frame":"-7(+5)",
-        "hit_frame":"+1(+13g)",
-        "counter_frame":"+1(+13)",
+        "guard_frame":"-7",
+        "hit_frame":"+1",
+        "counter_frame":"+1",
         "range":"중단",
         "damage":"12",
-        "extra":"오른 자세로\n→~ or ←~ or ↑~ or ↓~입력 시 오른 플라밍고로\n()는 이행 시 프레임"
+        "extra":"오른 자세로\n→~ or ←~ or ↑~ or ↓~입력 시 오른 플라밍고로"
+      },
+      {
+        "name":"라이트 사이드킥~오른 플라밍고",
+        "command":"오른 자세중에↘RK→~",
+        "start_frame":"13",
+        "guard_frame":"+5",
+        "hit_frame":"+13g",
+        "counter_frame":"+13",
+        "range":"중단",
+        "damage":"12",
+        "extra":"오른 플라밍고로"
       },
       {
         "name":"더블 클레이모어(오른자세)1",

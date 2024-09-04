@@ -216,12 +216,23 @@
         "name":"원투 스커드 킥2",
         "command":"RPLP",
         "start_frame":"10",
-        "guard_frame":"-3(-1)",
-        "hit_frame":"+8(+10)",
-        "counter_frame":"+8(+10)",
+        "guard_frame":"-3",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
         "range":"상단",
         "damage":"10,10",
-        "extra":"↘~입력 시 스네이크로\n()는 이행 시 프레임"
+        "extra":"↘~입력 시 스네이크로"
+      },
+      {
+        "name":"원투 스커드 킥2~스네이크",
+        "command":"RPLP↘~",
+        "start_frame":"10",
+        "guard_frame":"-1",
+        "hit_frame":"+10",
+        "counter_frame":"+10",
+        "range":"상단",
+        "damage":"10,10",
+        "extra":"스네이크로"
       },
       {
         "name":"원투 스커드 킥3",
@@ -260,12 +271,23 @@
         "name":"디스커넥터 콤보 미들2",
         "command":"LKLP",
         "start_frame":"15",
-        "guard_frame":"-2(-3)",
-        "hit_frame":"+7(+6)",
-        "counter_frame":"+7(+6)",
+        "guard_frame":"-2",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
         "range":"상단",
         "damage":"10,8",
-        "extra":"↘~입력 시 스네이크로\n()는 이행 시 프레임"
+        "extra":"↘~입력 시 스네이크로"
+      },
+      {
+        "name":"디스커넥터 콤보 미들2~스네이크",
+        "command":"LKLP↘~",
+        "start_frame":"15",
+        "guard_frame":"-3",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
+        "range":"상단",
+        "damage":"10,8",
+        "extra":"스네이크로"
       },
       {
         "name":"디스커넥터 콤보 미들3",
@@ -381,12 +403,23 @@
         "name":"하이 살루트",
         "command":"→LK",
         "start_frame":"20",
-        "guard_frame":"-6(0)",
-        "hit_frame":"+5(+11)",
-        "counter_frame":"+5(+11)",
+        "guard_frame":"-6",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
         "range":"중단",
         "damage":"11",
-        "extra":"↘~입력 시 스네이크로\n()는 이행 시 프레임"
+        "extra":"↘~입력 시 스네이크로"
+      },
+      {
+        "name":"하이 살루트",
+        "command":"→LK↘~",
+        "start_frame":"20",
+        "guard_frame":"0",
+        "hit_frame":"+11",
+        "counter_frame":"+11",
+        "range":"중단",
+        "damage":"11",
+        "extra":"스네이크로"
       },
       {
         "name":"스텝인 맨티스",
@@ -679,11 +712,22 @@
         "command":"↙LK",
         "start_frame":"27",
         "guard_frame":"-26",
-        "hit_frame":"-2(T)",
+        "hit_frame":"-2",
         "counter_frame":"T",
         "range":"하단",
-        "damage":"17(22)",
-        "extra":"클린 히트 효과 있음\n()는 클린 히트 시 프레임, 대미지"
+        "damage":"17",
+        "extra":"클린 히트 효과 있음"
+      },
+      {
+        "name":"클리핑 스윕(클린 히트)",
+        "command":"↙LK",
+        "start_frame":"27",
+        "guard_frame":"-26",
+        "hit_frame":"T",
+        "counter_frame":"T",
+        "range":"하단",
+        "damage":"22",
+        "extra":""
       },
       {
         "name":"페인트 & 로우 캐치",
@@ -756,11 +800,33 @@
         "command":"←RPLPLK",
         "start_frame":"15",
         "guard_frame":"-26",
-        "hit_frame":"-2(+4)",
+        "hit_frame":"-2",
         "counter_frame":"D",
         "range":"하단",
-        "damage":"14,11,17(22)",
-        "extra":"클린 히트 효과 있음\n()는 클린 히트 시 프레임, 대미지\n근거리 카운터 히트 시 클리핑 힐 훅으로\nAP입력 시 클리핑 스윕~페인트 & 캐치로"
+        "damage":"14,11,17",
+        "extra":"클린 히트 효과 있음\n근거리 카운터 히트 시 클리핑 힐 훅으로\nAP입력 시 클리핑 스윕~페인트 & 캐치로"
+      },
+      {
+        "name":"아이 가우지~스팅레이3(카운터)",
+        "command":"←RPLPLK",
+        "start_frame":"15",
+        "guard_frame":"-",
+        "hit_frame":"-",
+        "counter_frame":"D",
+        "range":"하단",
+        "damage":"14,11,26,30",
+        "extra":""
+      },
+      {
+        "name":"아이 가우지~스팅레이3(클린 히트)",
+        "command":"←RPLPLK",
+        "start_frame":"15",
+        "guard_frame":"-26",
+        "hit_frame":"+4",
+        "counter_frame":"D",
+        "range":"하단",
+        "damage":"14,11,22",
+        "extra":"근거리 카운터 히트 시 클리핑 힐 훅으로\nAP입력 시 클리핑 스윕~페인트 & 캐치로"
       },
       {
         "name":"서레이티드 엣지",
@@ -788,12 +854,23 @@
         "name":"툰드라 스트라이크2",
         "command":"←RKRP",
         "start_frame":"14",
-        "guard_frame":"-7(-6)",
-        "hit_frame":"+4(+5)",
-        "counter_frame":"+4(+5)",
+        "guard_frame":"-7",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
         "range":"중단",
         "damage":"15,15",
-        "extra":"↓~입력 시 직접 몸을 숙인 상태로\n↘~입력 시 스네이크로\n()는 이행 시 프레임"
+        "extra":"↓~입력 시 직접 몸을 숙인 상태로\n↘~입력 시 스네이크로"
+      },
+      {
+        "name":"툰드라 스트라이크2~스네이크",
+        "command":"←RKRP↘~",
+        "start_frame":"14",
+        "guard_frame":"-6",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
+        "range":"중단",
+        "damage":"15,15",
+        "extra":"스네이크로"
       },
       {
         "name":"툰드라 스트라이크~이어 그랩",
@@ -1012,12 +1089,12 @@
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"하단",
-        "damage":"20(,20)",
+        "damage":"20,20",
         "extra":"정면 지상 히트 시 잡기로"
       },
       {
         "name":"매스 엘보",
-        "command":"↓↘→RP",
+        "command":"↓↙←RP",
         "start_frame":"26",
         "guard_frame":"-15",
         "hit_frame":"T",
@@ -1341,11 +1418,22 @@
         "command":"일어서며 LP",
         "start_frame":"12",
         "guard_frame":"-3",
-        "hit_frame":"+4(+2)",
-        "counter_frame":"+4(+2)",
+        "hit_frame":"+4",
+        "counter_frame":"+4",
         "range":"중단",
         "damage":"11",
-        "extra":"↘~입력 시 스네이크로\n()는 이행 시 프레임"
+        "extra":"↘~입력 시 스네이크로"
+      },
+      {
+        "name":"퀼리온1~스네이크",
+        "command":"일어서며 LP↘~",
+        "start_frame":"12",
+        "guard_frame":"-5",
+        "hit_frame":"+2",
+        "counter_frame":"+2",
+        "range":"중단",
+        "damage":"11",
+        "extra":"스네이크로"
       },
       {
         "name":"퀼리온2",
@@ -1432,8 +1520,19 @@
         "hit_frame":"+7",
         "counter_frame":"+7",
         "range":"중단",
+        "damage":"8,10",
+        "extra":"저스트 입력으로 파워 상승\n스네이크로"
+      },
+      {
+        "name":"헤일 슬라이서2(저스트)",
+        "command":"몸을 숙인 상태에서 ↘LP 히트 시 RK(저스트)",
+        "start_frame":"16",
+        "guard_frame":"-",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
+        "range":"중단",
         "damage":"8,14",
-        "extra":"저스트 입력으로 파워 상승\n()는 파워 상승 시 대미지\n스네이크로"
+        "extra":"스네이크로"
       },
       {
         "name":"헤일 슬라이서~앰부시 태클",

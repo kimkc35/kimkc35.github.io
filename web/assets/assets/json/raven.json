@@ -106,12 +106,23 @@
         "name":"레프트 라이트 콤보",
         "command":"LPRP",
         "start_frame":"10",
-        "guard_frame":"-3(-4)",
-        "hit_frame":"+7(+6)",
-        "counter_frame":"+7(+6)",
+        "guard_frame":"-3",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
         "range":"상단",
         "damage":"5,12",
-        "extra":"↓~입력 시 소울존으로\n()는 이행 시 프레임"
+        "extra":"↓~입력 시 소울존으로"
+      },
+      {
+        "name":"레프트 라이트 콤보~소울존",
+        "command":"LPRP↓~",
+        "start_frame":"10",
+        "guard_frame":"-4",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
+        "range":"상단",
+        "damage":"5,12",
+        "extra":"소울존으로"
       },
       {
         "name":"레프트 라이트 콤보~블랙홀",
@@ -188,7 +199,18 @@
         "counter_frame":"D(-3)",
         "range":"상단",
         "damage":"10,16,20",
-        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 이행 시 프레임"
+        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"발키리 랜스 콤보3(캔슬)~뒤돈 자세",
+        "command":"LKLKRK←~",
+        "start_frame":"14",
+        "guard_frame":"-16",
+        "hit_frame":"-3",
+        "counter_frame":"-3",
+        "range":"상단",
+        "damage":"10,16",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"브로켄 커넥트1",
@@ -216,12 +238,23 @@
         "name":"채리엇",
         "command":"[LKRK]",
         "start_frame":"25",
-        "guard_frame":"-9(-36)",
+        "guard_frame":"-9",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단x2",
         "damage":"10,16",
-        "extra":"→~입력 시 Blind Roll로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 블라인드 롤로"
+      },
+      {
+        "name":"채리엇~블라인드 롤",
+        "command":"[LKRK]→~",
+        "start_frame":"25",
+        "guard_frame":"-36",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단x2",
+        "damage":"10,16",
+        "extra":"블라인드 롤로"
       },
       {
         "name":"히드라 바이트 로우1",
@@ -315,12 +348,23 @@
         "name":"서클링 윈즈1",
         "command":"→LK",
         "start_frame":"17",
-        "guard_frame":"-9(-6)",
-        "hit_frame":"+3(+6)",
-        "counter_frame":"+3(+6)",
+        "guard_frame":"-9",
+        "hit_frame":"+3",
+        "counter_frame":"+3",
         "range":"중단",
         "damage":"18",
-        "extra":"호밍기\n←~입력 시 상대에게 등을 보이는 상태로\n()는 이행 시 프레임"
+        "extra":"호밍기\n←~입력 시 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"서클링 윈즈1~뒤돈 자세",
+        "command":"→LK←~",
+        "start_frame":"17",
+        "guard_frame":"-6",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
+        "range":"중단",
+        "damage":"18",
+        "extra":"호밍기\n상대에게 등을 보이는 상태로"
       },
       {
         "name":"서클링 윈즈2",
@@ -491,12 +535,23 @@
         "name":"어쌔신스 스팅2",
         "command":"↙RPLP",
         "start_frame":"13",
-        "guard_frame":"-1(-4)",
-        "hit_frame":"+8(+5)",
-        "counter_frame":"+8(+5)",
+        "guard_frame":"-1",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
         "range":"상단",
         "damage":"13,15",
-        "extra":"AK 혹은 ↓~입력 시 소울존으로\n()는 이행 시 프레임"
+        "extra":"AK 혹은 ↓~입력 시 소울존으로"
+      },
+      {
+        "name":"어쌔신스 스팅2~소울존",
+        "command":"↙RPLPAK(↓~)",
+        "start_frame":"13",
+        "guard_frame":"-4",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
+        "range":"상단",
+        "damage":"13,15",
+        "extra":"소울존으로"
       },
       {
         "name":"어쌔신스 스팅~팬텀 자벨린",
@@ -777,12 +832,23 @@
         "name":"스톰브링어2",
         "command":"↗RKRK",
         "start_frame":"20",
-        "guard_frame":"-15(-16)",
+        "guard_frame":"-15",
         "hit_frame":"+9",
         "counter_frame":"D",
         "range":"중단",
         "damage":"14,20",
-        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로\n()는 캔슬 시 프레임"
+        "extra":"←~입력 시 캔슬하고 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"스톰브링어2(캔슬)~뒤돈 자세",
+        "command":"↗RKRK",
+        "start_frame":"20",
+        "guard_frame":"-16",
+        "hit_frame":"+9",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"14",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"차크람1",
@@ -1074,23 +1140,56 @@
         "name":"백피스트~스트레이트",
         "command":"상대에게 등을 보일 때 RPLP",
         "start_frame":"10",
-        "guard_frame":"-3(+1)",
-        "hit_frame":"+3(+7)",
-        "counter_frame":"+3(+7)",
+        "guard_frame":"-3",
+        "hit_frame":"+3",
+        "counter_frame":"+3",
         "range":"상단",
         "damage":"9,10",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n→~입력 시 섀도 스프린트로\n()는 이행 시 프레임"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n→~입력 시 섀도 스프린트로"
+      },
+      {
+        "name":"백피스트~스트레이트~뒤돈 자세",
+        "command":"상대에게 등을 보일 때 RPLP←~",
+        "start_frame":"10",
+        "guard_frame":"+1",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
+        "range":"상단",
+        "damage":"9,10",
+        "extra":"상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"백피스트~스트레이트~새도 스프린트",
+        "command":"상대에게 등을 보일 때 RPLP→~",
+        "start_frame":"10",
+        "guard_frame":"+1",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
+        "range":"상단",
+        "damage":"9,10",
+        "extra":"섀도 스프린트로"
       },
       {
         "name":"블라인딩 나이프",
         "command":"상대에게 등을 보일 때 RPRP",
         "start_frame":"10",
-        "guard_frame":"-9(-7)",
-        "hit_frame":"+6(+8)",
-        "counter_frame":"+6(+8)",
+        "guard_frame":"-9",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
         "range":"중단",
         "damage":"9,12",
-        "extra":"AK 혹은 ↓~입력 시 소울존으로\n()는 이행 시 프레임"
+        "extra":"AK 혹은 ↓~입력 시 소울존으로"
+      },
+      {
+        "name":"블라인딩 나이프~소울존",
+        "command":"상대에게 등을 보일 때 RPRP",
+        "start_frame":"10AK(↓~)",
+        "guard_frame":"-7",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
+        "range":"중단",
+        "damage":"9,12",
+        "extra":"소울존으로"
       },
       {
         "name":"블라인딩 나이프~팬텀 자벨린",
@@ -1140,12 +1239,23 @@
         "name":"파프니르",
         "command":"상대에게 등을 보일 때 LKRKRK",
         "start_frame":"10",
-        "guard_frame":"-9(-36)",
+        "guard_frame":"-9",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
         "damage":"10,17,21",
-        "extra":"상대에게 등을 보이는 상태로\n→~입력 시 Blind Roll로\n()는 이행 시 프레임"
+        "extra":"상대에게 등을 보이는 상태로\n→~입력 시 블라인드 롤로"
+      },
+      {
+        "name":"파프니르~블라인드 롤",
+        "command":"상대에게 등을 보일 때 LKRKRK→~",
+        "start_frame":"10",
+        "guard_frame":"-36",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"10,17,21",
+        "extra":"블라인드 롤로"
       },
       {
         "name":"크로노스 레이드",
@@ -1239,12 +1349,23 @@
         "name":"데몬 니",
         "command":"상대에게 등을 보일 때 →LK",
         "start_frame":"13",
-        "guard_frame":"-5(-8)",
-        "hit_frame":"+6(+3)",
+        "guard_frame":"-5",
+        "hit_frame":"+6",
         "counter_frame":"D",
         "range":"중단",
         "damage":"17",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로\n()는 이행 시 프레임"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로"
+      },
+      {
+        "name":"데몬 니~뒤돈 자세",
+        "command":"상대에게 등을 보일 때 →LK←~",
+        "start_frame":"13",
+        "guard_frame":"-8",
+        "hit_frame":"+3",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"17",
+        "extra":"상대에게 등을 보이는 상태로"
       },
       {
         "name":"트릭 뱅1",
@@ -1261,34 +1382,67 @@
         "name":"트릭 뱅2",
         "command":"상대에게 등을 보일 때 →RKLP",
         "start_frame":"16",
-        "guard_frame":"-9(-6)",
-        "hit_frame":"+5(+8)",
-        "counter_frame":"+5(+8)",
+        "guard_frame":"-9",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
         "range":"상단",
         "damage":"13,15",
-        "extra":"토네이도\nAK 혹은 ↓~입력 시 소울존으로\n()는 이행 시 프레임"
+        "extra":"토네이도\nAK 혹은 ↓~입력 시 소울존으로"
+      },
+      {
+        "name":"트릭 뱅2",
+        "command":"상대에게 등을 보일 때 →RKLPAK(↓~)",
+        "start_frame":"16",
+        "guard_frame":"-6",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
+        "range":"상단",
+        "damage":"13,15",
+        "extra":"토네이도\n소울존으로"
       },
       {
         "name":"리버스 차크람",
         "command":"상대에게 등을 보일 때 →AK",
         "start_frame":"25",
-        "guard_frame":"-9(-36)",
+        "guard_frame":"-9",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
         "damage":"24",
-        "extra":"→~입력 시 Blind Roll로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 블라인드 롤로"
       },
       {
-        "name":"시노비 사이클론(뒤돈 자세)",
+        "name":"리버스 차크람~블라인드 롤",
+        "command":"상대에게 등을 보일 때 →AK→~",
+        "start_frame":"25",
+        "guard_frame":"-36",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"24",
+        "extra":"블라인드 롤로"
+      },
+      {
+        "name":"시노비 사이클론",
         "command":"상대에게 등을 보일 때 ↓LK",
         "start_frame":"25",
         "guard_frame":"-26",
-        "hit_frame":"0(T)",
-        "counter_frame":"0(T)",
+        "hit_frame":"0",
+        "counter_frame":"0",
         "range":"하단",
-        "damage":"16,(20)",
-        "extra":"클린 히트 효과 있음\n()는 클린 히트 시 프레임, 대미지"
+        "damage":"16",
+        "extra":"클린 히트 효과 있음"
+      },
+      {
+        "name":"시노비 사이클론(클린 히트)",
+        "command":"상대에게 등을 보일 때 ↓LK",
+        "start_frame":"25",
+        "guard_frame":"-26",
+        "hit_frame":"T",
+        "counter_frame":"T",
+        "range":"하단",
+        "damage":"20",
+        "extra":""
       },
       {
         "name":"어비스 캐넌1",
@@ -1496,12 +1650,23 @@
         "name":"페이탈 엘보",
         "command":"↓↘→LP",
         "start_frame":"16",
-        "guard_frame":"-9(0)",
-        "hit_frame":"+4(+13)",
+        "guard_frame":"-9",
+        "hit_frame":"+4",
         "counter_frame":"D",
         "range":"중단",
         "damage":"15",
-        "extra":"AK 혹은 ↓~입력 시 소울존으로\n()는 이행 시 프레임"
+        "extra":"AK 혹은 ↓~입력 시 소울존으로"
+      },
+      {
+        "name":"페이탈 엘보~소울존",
+        "command":"↓↘→LPAK(↓~)",
+        "start_frame":"16",
+        "guard_frame":"0",
+        "hit_frame":"+13",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"15",
+        "extra":"소울존으로"
       },
       {
         "name":"페이탈 엘보~팬텀 할버드",
@@ -1586,12 +1751,23 @@
         "name":"스위프트 블레이드",
         "command":"소울존 도중 LP",
         "start_frame":"14",
-        "guard_frame":"-3(+1)",
-        "hit_frame":"+8(+12)",
-        "counter_frame":"+8(+12)",
+        "guard_frame":"-3",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
         "range":"상단",
         "damage":"12",
-        "extra":"→~입력 시 섀도 스프린트로\n()는 이행 시 프레임"
+        "extra":"→~입력 시 섀도 스프린트로"
+      },
+      {
+        "name":"스위프트 블레이드~섀도 스프린트",
+        "command":"소울존 도중 LP→~",
+        "start_frame":"14",
+        "guard_frame":"+1",
+        "hit_frame":"+12",
+        "counter_frame":"+12",
+        "range":"상단",
+        "damage":"12",
+        "extra":"섀도 스프린트로"
       },
       {
         "name":"스위프트 블레이드~팬텀 메이스",
@@ -1742,7 +1918,7 @@
       "after_break_frame":"-2",
       "damage":"35",
       "range":"상단",
-      "extra":"혹은 2 3 6 3 LP+RK"
+      "extra":"혹은 ↓↘→↘LP+RK"
     },
     {
       "name":"언더테이커",

@@ -282,12 +282,23 @@
         "name":"정권~상단 뒤 돌려 차기",
         "command":"RPRK",
         "start_frame":"10",
-        "guard_frame":"-9(-6)",
-        "hit_frame":"+11(+14)",
-        "counter_frame":"+11(+14)",
+        "guard_frame":"-9",
+        "hit_frame":"+11",
+        "counter_frame":"+11",
         "range":"상단",
         "damage":"9,20",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임[투포]"
+        "extra":"→~입력시 전심으로[투포]"
+      },
+      {
+        "name":"정권~상단 뒤 돌려 차기~전심",
+        "command":"RPRK→~",
+        "start_frame":"10",
+        "guard_frame":"-9(-6)",
+        "hit_frame":"+11(+14)",
+        "counter_frame":"+14",
+        "range":"상단",
+        "damage":"9,20",
+        "extra":"전심으로[투포]"
       },
       {
         "name":"귀신열광1",
@@ -304,12 +315,23 @@
         "name":"귀신열광2",
         "command":"LKLP",
         "start_frame":"14",
-        "guard_frame":"-1(+4)",
-        "hit_frame":"+7(+12)",
-        "counter_frame":"+7(+12)",
+        "guard_frame":"-1",
+        "hit_frame":"+7",
+        "counter_frame":"+7",
         "range":"상단",
         "damage":"19,7",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임"
+        "extra":"→~입력시 전심으로"
+      },
+      {
+        "name":"귀신열광2~전심",
+        "command":"LKLP→~",
+        "start_frame":"14",
+        "guard_frame":"+4",
+        "hit_frame":"+12",
+        "counter_frame":"+12",
+        "range":"상단",
+        "damage":"19,7",
+        "extra":"전심으로"
       },
       {
         "name":"귀신열광3",
@@ -381,23 +403,45 @@
         "name":"왼족도~왼 세로 차기",
         "command":"→LKLK",
         "start_frame":"14",
-        "guard_frame":"-8(-7)",
-        "hit_frame":"+8(+9)",
-        "counter_frame":"+8(+9)",
+        "guard_frame":"-8",
+        "hit_frame":"+8",
+        "counter_frame":"+8",
         "range":"상단",
         "damage":"12,14",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임\n←~입력 시 특수 동작 이행"
+        "extra":"→~입력시 전심으로\n←~입력 시 특수 동작 이행"
+      },
+      {
+        "name":"왼족도~왼 세로 차기~전심",
+        "command":"→LKLK→~",
+        "start_frame":"14",
+        "guard_frame":"-7",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
+        "range":"상단",
+        "damage":"12,14",
+        "extra":"전심으로"
       },
       {
         "name":"오른 중단 앞차기",
         "command":"→RK",
         "start_frame":"16",
-        "guard_frame":"-8(-1)",
-        "hit_frame":"+4(+11)",
+        "guard_frame":"-8",
+        "hit_frame":"+4",
         "counter_frame":"D",
         "range":"중단",
         "damage":"21",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임[뻥발]"
+        "extra":"→~입력 시 전심으로[뻥발]"
+      },
+      {
+        "name":"오른 중단 앞차기~전심",
+        "command":"→RK→~",
+        "start_frame":"16",
+        "guard_frame":"-1",
+        "hit_frame":"+11",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"21",
+        "extra":"전심으로[뻥발]"
       },
       {
         "name":"정권 이단 찌르기",
@@ -419,7 +463,7 @@
         "counter_frame":"-",
         "range":"-",
         "damage":"-",
-        "extra":"↘~입력 시 브레이킹 스텝 이행\n()는 브레이킹 스텝 이행시 프레임"
+        "extra":"↘~입력 시 브레이킹 스텝으로"
       },
       {
         "name":"왼 중단 곧게 찌르기",
@@ -458,12 +502,23 @@
         "name":"마열조",
         "command":"↘RP",
         "start_frame":"16",
-        "guard_frame":"-9(-2)",
-        "hit_frame":"+6(+13)",
-        "counter_frame":"+6(+13)",
+        "guard_frame":"-9",
+        "hit_frame":"+6",
+        "counter_frame":"+6",
         "range":"중단",
         "damage":"12",
-        "extra":"가드 대미지\n↘~입력 시 브레이킹 스텝 이행\n()는 브레이킹 스텝 이행시 프레임"
+        "extra":"가드 대미지\n↘~입력 시 브레이킹 스텝으로"
+      },
+      {
+        "name":"마열조~브레이킹 스텝",
+        "command":"↘RP↘~",
+        "start_frame":"16",
+        "guard_frame":"-2",
+        "hit_frame":"+13g",
+        "counter_frame":"+13g",
+        "range":"중단",
+        "damage":"12",
+        "extra":"가드 대미지"
       },
       {
         "name":"왼 중단 돌려차기",
@@ -480,12 +535,23 @@
         "name":"세로 차기",
         "command":"↘[LKLK]",
         "start_frame":"23",
-        "guard_frame":"+6(+2)",
-        "hit_frame":"+13(+9)",
-        "counter_frame":"+13(+9)",
+        "guard_frame":"+6",
+        "hit_frame":"+13",
+        "counter_frame":"+13",
         "range":"중단",
         "damage":"20",
-        "extra":"↘~입력 시 브레이킹 스텝 이행\n()는 브레이킹 스텝 이행시 프레임"
+        "extra":"↘~입력 시 브레이킹 스텝으로"
+      },
+      {
+        "name":"세로 차기~브레이킹 스텝",
+        "command":"↘[LKLK]↘~",
+        "start_frame":"23",
+        "guard_frame":"+2",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
+        "range":"중단",
+        "damage":"20",
+        "extra":"브레이킹 스텝으로"
       },
       {
         "name":"뒤돌려 오른 발꿈치 찍기",
@@ -711,12 +777,23 @@
         "name":"왼 무릎 차기",
         "command":"←LK",
         "start_frame":"16",
-        "guard_frame":"-6(-2)",
-        "hit_frame":"+5(+9)",
-        "counter_frame":"+5(+9)",
+        "guard_frame":"-6",
+        "hit_frame":"+5",
+        "counter_frame":"+5",
         "range":"중단",
         "damage":"17",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임"
+        "extra":"→~입력 시 전심으로"
+      },
+      {
+        "name":"왼 무릎 차기~전심",
+        "command":"←LK→~",
+        "start_frame":"16",
+        "guard_frame":"-2",
+        "hit_frame":"+9",
+        "counter_frame":"+9",
+        "range":"중단",
+        "damage":"17",
+        "extra":"전심으로"
       },
       {
         "name":"왼 무릎 차기~오른 아래 찌르기",
@@ -760,7 +837,7 @@
         "counter_frame":"-",
         "range":"-",
         "damage":"-",
-        "extra":"→~입력 시 대시\n↘~입력 시 브레이킹 스텝 이행\n()는 브레이킹 스텝 이행시 프레임"
+        "extra":"→~입력 시 대시\n↘~입력 시 브레이킹 스텝으로"
       },
       {
         "name":"오른 팔꿈치 치기",
@@ -909,12 +986,23 @@
         "name":"계도",
         "command":"←→RPLK",
         "start_frame":"15",
-        "guard_frame":"-9(+2)",
-        "hit_frame":"+6(+17g)",
+        "guard_frame":"-9",
+        "hit_frame":"+6",
         "counter_frame":"D",
         "range":"중단",
         "damage":"15,17",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임"
+        "extra":"→~입력시 전심으로"
+      },
+      {
+        "name":"계도~전심",
+        "command":"←→RPLK→~",
+        "start_frame":"15",
+        "guard_frame":"+2",
+        "hit_frame":"+17g",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"15,17",
+        "extra":"전심으로"
       },
       {
         "name":"공참각",
@@ -1087,12 +1175,23 @@
         "name":"귀팔문2",
         "command":"일어서며 LPRP",
         "start_frame":"13",
-        "guard_frame":"-8(-9)",
-        "hit_frame":"+3(+2)",
-        "counter_frame":"+3(+2)",
+        "guard_frame":"-8",
+        "hit_frame":"+3",
+        "counter_frame":"+3",
         "range":"중단",
         "damage":"7,19",
-        "extra":"→~입력시 전심 이행\n()안의 프레임은 전심 이행 시 프레임"
+        "extra":"→~입력시 전심으로"
+      },
+      {
+        "name":"귀팔문2~전심",
+        "command":"일어서며 LPRP→~",
+        "start_frame":"13",
+        "guard_frame":"-9",
+        "hit_frame":"+2",
+        "counter_frame":"+2",
+        "range":"중단",
+        "damage":"7,19",
+        "extra":"전심으로"
       },
       {
         "name":"카자마류 육연격 개1",
@@ -1316,7 +1415,7 @@
         "counter_frame":"-",
         "range":"-",
         "damage":"-",
-        "extra":"→~입력 시 대시\n↘~입력 시 브레이킹 스텝 이행\n()는 브레이킹 스텝 이행시 프레임"
+        "extra":"→~입력 시 대시\n↘~입력 시 브레이킹 스텝으로"
       },
       {
         "name":"왼 돌려 찌르기~흑익사장1",
@@ -1399,12 +1498,23 @@
         "name":"흑익뢰명각",
         "command":"전심 도중 AK",
         "start_frame":"21",
-        "guard_frame":"+9(+8)",
+        "guard_frame":"+9",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"상단",
         "damage":"25",
-        "extra":"가드 대미지\n↘~입력 시 브레이킹 스텝 이행\n()는 브레이킹 스텝 이행시 프레임"
+        "extra":"가드 대미지\n↘~입력 시 브레이킹 스텝으로"
+      },
+      {
+        "name":"흑익뢰명각~브레이킹 스텝",
+        "command":"전심 도중 AK↘~",
+        "start_frame":"21",
+        "guard_frame":"+8",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"상단",
+        "damage":"25",
+        "extra":"가드 대미지\n브레이킹 스텝으로"
       },
       {
         "name":"흑익윤무",
