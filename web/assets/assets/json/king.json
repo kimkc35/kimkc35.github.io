@@ -10,7 +10,9 @@
         "counter_frame":"+2",
         "range":"중단",
         "damage":"12",
-        "extra":"파워 크래시\n히트 상태의 남은 시간을 소비\n←←입력 시 공격 캔슬"
+        "extra":"파워 크래시\n히트 상태의 남은 시간을 소비\n←←입력 시 공격 캔슬",
+        "startAt": 0,
+        "endAt": 4
       },
       {
         "name":"엘보 임팩트",
@@ -21,7 +23,9 @@
         "counter_frame":"+17g",
         "range":"상단",
         "damage":"12,25",
-        "extra":"히트 발동기"
+        "extra":"히트 발동기",
+        "startAt": 4,
+        "endAt": 8
       },
       {
         "name":"숄더 태클",
@@ -32,7 +36,9 @@
         "counter_frame":"+17g",
         "range":"중단",
         "damage":"27",
-        "extra":"히트 발동기"
+        "extra":"히트 발동기",
+        "startAt": 8,
+        "endAt": 11
       },
       {
         "name":"머슬 아머~에메랄드 엘보",
@@ -43,18 +49,22 @@
         "counter_frame":"+35g",
         "range":"중단",
         "damage":"15,20",
-        "extra":"히트 발동기\n파워 크래시\n정면 지상 히트 시 잡기로(히트 대시 발동 시에는 이행하지 않음)\n잡기 성립 시 히트 발동\n상대의 공격을 받아내면 파워가 상승하고 가드 대미지 추가"
+        "extra":"히트 발동기\n파워 크래시\n정면 지상 히트 시 잡기로(히트 대시 발동 시에는 이행하지 않음)\n잡기 성립 시 히트 발동\n상대의 공격을 받아내면 파워가 상승하고 가드 대미지 추가",
+        "startAt": 18,
+        "endAt": 23
       },
       {
         "name":"래피드 킹 온슬로트",
-        "command":"재규어 스프린트 도중LP or RP",
+        "command":"재규어 스프린트 도중AL or AR",
         "start_frame":"23",
         "guard_frame":"-",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"상단",
         "damage":"45",
-        "extra":"히트 발동기\n잡기 풀기 불가능\n히트 상태 지속 중에는 히트 상태의 남은 시간 회복\n히트 대시 불가능"
+        "extra":"히트 발동기\n잡기 풀기 불가능\n히트 상태 지속 중에는 히트 상태의 남은 시간 회복\n히트 대시 불가능",
+        "startAt": 25,
+        "endAt": 29
       },
       {
         "name":"프리덤 페이스 버스터",
@@ -65,7 +75,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"35",
-        "extra":"히트 발동기\n또는 ↙LP+RK\n잡기 풀기 불가능\n히트 상태 지속 중에는 히트 상태의 남은 시간 회복\n히트 대시 불가능"
+        "extra":"히트 발동기\n또는 ↙LP+RK\n잡기 풀기 불가능\n히트 상태 지속 중에는 히트 상태의 남은 시간 회복\n히트 대시 불가능",
+        "startAt": 30,
+        "endAt": 36
       },
       {
         "name":"울티모 아구아르",
@@ -76,7 +88,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"20,40",
-        "extra":"가드 시 재규어 스프린트로"
+        "extra":"가드 시 재규어 스프린트로",
+        "startAt": 37,
+        "endAt": 42
       }
     ],
     "general":[
@@ -89,7 +103,9 @@
         "counter_frame":"+8",
         "range":"상단",
         "damage":"5",
-        "extra":""
+        "extra":"",
+        "startAt": 60,
+        "endAt": 62
       },
       {
         "name":"팜 스트라이크2",
@@ -100,7 +116,9 @@
         "counter_frame":"+8",
         "range":"상단",
         "damage":"5,15",
-        "extra":""
+        "extra":"",
+        "startAt": 60,
+        "endAt": 62
       },
       {
         "name":"팜 스트라이크~헤드 재머",
@@ -111,7 +129,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"5,15,30",
-        "extra":"RP로 잡기 풀기"
+        "extra":"RP로 잡기 풀기",
+        "startAt": 62,
+        "endAt": 66
       },
       {
         "name":"팜 스트라이크~V 드라이브",
@@ -122,7 +142,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"5,15,35",
-        "extra":"잡기 풀기 불가능"
+        "extra":"잡기 풀기 불가능",
+        "startAt": 68,
+        "endAt": 72
       },
       {
         "name":"팜 스트라이크 어퍼컷",
@@ -133,7 +155,9 @@
         "counter_frame":"+10",
         "range":"중단",
         "damage":"5,15,10",
-        "extra":""
+        "extra":"",
+        "startAt": 73,
+        "endAt": 76
       },
       {
         "name":"팜 스트라이크 어퍼컷~수플렉스",
@@ -144,7 +168,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"5,15,10,40",
-        "extra":"RP로 잡기 풀기"
+        "extra":"RP로 잡기 풀기",
+        "startAt": 77,
+        "endAt": 83
       },
       {
         "name":"팜 스트라이크 어퍼컷~V 드라이버",
@@ -155,7 +181,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"5,15,10,35",
-        "extra":"잡기 풀기 불가능"
+        "extra":"잡기 풀기 불가능",
+        "startAt": 85,
+        "endAt": 90
       },
       {
         "name":"라이트 잽",
@@ -166,7 +194,9 @@
         "counter_frame":"+7",
         "range":"상단",
         "damage":"10",
-        "extra":""
+        "extra":"",
+        "startAt": 93,
+        "endAt": 95
       },
       {
         "name":"라이트 잽~어퍼컷",
@@ -177,7 +207,9 @@
         "counter_frame":"+8",
         "range":"중단",
         "damage":"10,15",
-        "extra":""
+        "extra":"",
+        "startAt": 93,
+        "endAt": 95
       },
       {
         "name":"헤드 스피너1",
@@ -188,7 +220,9 @@
         "counter_frame":"0",
         "range":"중단",
         "damage":"17",
-        "extra":""
+        "extra":"",
+        "startAt": 97,
+        "endAt": 100
       },
       {
         "name":"헤드 스피너2",
@@ -199,7 +233,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"17,21",
-        "extra":"←~입력 시 캔슬"
+        "extra":"←~입력 시 캔슬",
+        "startAt": 97,
+        "endAt": 100
       },
       {
         "name":"헤드 스피너2(캔슬)",
@@ -209,8 +245,10 @@
         "hit_frame":"-9",
         "counter_frame":"-7",
         "range":"중단",
-        "damage":"17,21",
-        "extra":""
+        "damage":"17",
+        "extra":"",
+        "startAt": 97,
+        "endAt": 100
       },
       {
         "name":"브루탈 스팅",
@@ -221,7 +259,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"17,25",
-        "extra":"토네이도"
+        "extra":"토네이도",
+        "startAt": 101,
+        "endAt": 103
       },
       {
         "name":"재규어 스텝",
@@ -232,7 +272,9 @@
         "counter_frame":"-",
         "range":"-",
         "damage":"-",
-        "extra":"재규어 스텝으로\n홀드하면 계속 회전(파생하는 타격기 파워 상승)"
+        "extra":"재규어 스텝으로\n홀드하면 계속 회전(파생하는 타격기 파워 상승)",
+        "startAt": 104,
+        "endAt": 106
       },
       {
         "name":"엘보 임팩트1",
@@ -243,7 +285,9 @@
         "counter_frame":"+2",
         "range":"중단",
         "damage":"12",
-        "extra":""
+        "extra":"",
+        "startAt": 111,
+        "endAt": 115
       },
       {
         "name":"엘보 임팩트2",
@@ -254,7 +298,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"12,25",
-        "extra":"히트 발동기"
+        "extra":"히트 발동기",
+        "startAt": 111,
+        "endAt": 115
       },
       {
         "name":"재규어 스매시 콤보1",
@@ -265,7 +311,9 @@
         "counter_frame":"+2",
         "range":"중단",
         "damage":"12,15",
-        "extra":""
+        "extra":"",
+        "startAt": 117,
+        "endAt": 120
       },
       {
         "name":"재규어 스매시 콤보2",
@@ -276,7 +324,9 @@
         "counter_frame":"A",
         "range":"중단",
         "damage":"12,15,16",
-        "extra":""
+        "extra":"",
+        "startAt": 117,
+        "endAt": 120
       },
       {
         "name":"프런트 킥",
@@ -287,7 +337,9 @@
         "counter_frame":"+9",
         "range":"중단",
         "damage":"18",
-        "extra":""
+        "extra":"",
+        "startAt": 121,
+        "endAt": 123
       },
       {
         "name":"프런트 킥~DDT",
@@ -298,7 +350,9 @@
         "counter_frame":"D",
         "range":"잡기",
         "damage":"18,20",
-        "extra":""
+        "extra":"",
+        "startAt": 123,
+        "endAt": 127
       },
       {
         "name":"롤링 소뱃",
@@ -309,7 +363,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"25",
-        "extra":"호밍기"
+        "extra":"호밍기",
+        "startAt": 129,
+        "endAt": 131
       },
       {
         "name":"섀도 래리어트",
@@ -320,7 +376,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"23",
-        "extra":""
+        "extra":"",
+        "startAt": 132,
+        "endAt": 135
       },
       {
         "name":"재규어 스프린트",
@@ -331,7 +389,9 @@
         "counter_frame":"-",
         "range":"-",
         "damage":"-",
-        "extra":"←~입력 시 캔슬\n히트 상태 지속 중에는 파워 크래시"
+        "extra":"←~입력 시 캔슬\n히트 상태 지속 중에는 파워 크래시",
+        "startAt": 135,
+        "endAt": 139
       },
       {
         "name":"보디 체크",
@@ -342,7 +402,9 @@
         "counter_frame":"+7",
         "range":"중단",
         "damage":"21",
-        "extra":""
+        "extra":"",
+        "startAt": 140,
+        "endAt": 142
       },
       {
         "name":"숄더 태클",
@@ -353,7 +415,9 @@
         "counter_frame":"D",
         "range":"중단",
         "damage":"27",
-        "extra":"히트 발동기"
+        "extra":"히트 발동기",
+        "startAt": 142,
+        "endAt": 146
       },
       {
         "name":"엘보 스매시",
@@ -364,7 +428,9 @@
         "counter_frame":"+3",
         "range":"중단",
         "damage":"15",
-        "extra":""
+        "extra":"",
+        "startAt": 147,
+        "endAt": 150
       },
       {
         "name":"엘보 스팅",
@@ -375,7 +441,9 @@
         "counter_frame":"+5",
         "range":"중단",
         "damage":"15,15",
-        "extra":""
+        "extra":"",
+        "startAt": 147,
+        "endAt": 150
       },
       {
         "name":"스매싱 훅",
@@ -386,7 +454,9 @@
         "counter_frame":"+4",
         "range":"중단",
         "damage":"12",
-        "extra":""
+        "extra":"",
+        "startAt": 150,
+        "endAt": 153
       },
       {
         "name":"더블 훅 디재스터",
@@ -397,7 +467,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"12,15",
-        "extra":""
+        "extra":"",
+        "startAt": 150,
+        "endAt": 153
       },
       {
         "name":"라소 킥1",
@@ -408,7 +480,9 @@
         "counter_frame":"+6",
         "range":"중단",
         "damage":"17",
-        "extra":""
+        "extra":"",
+        "startAt": 154,
+        "endAt": 157
       },
       {
         "name":"라소 킥2",
@@ -419,7 +493,9 @@
         "counter_frame":"D",
         "range":"상단",
         "damage":"17,23",
-        "extra":""
+        "extra":"",
+        "startAt": 154,
+        "endAt": 157
       },
       {
         "name":"민서1",
@@ -430,7 +506,9 @@
         "counter_frame":"-3",
         "range":"하단",
         "damage":"10",
-        "extra":""
+        "extra":"",
+        "startAt": 162,
+        "endAt": 165
       },
       {
         "name":"민서2",
@@ -441,18 +519,35 @@
         "counter_frame":"+6",
         "range":"상단",
         "damage":"10,11",
-        "extra":""
+        "extra":"",
+        "startAt": 162,
+        "endAt": 165
       },
       {
         "name":"민서3",
         "command":"↘RKLKRK",
         "start_frame":"14",
-        "guard_frame":"-15(-8)",
+        "guard_frame":"-15",
         "hit_frame":"D",
         "counter_frame":"D",
         "range":"중단",
         "damage":"10,11,27",
-        "extra":"←~입력 시 상대에게 등을 보이는 상태로"
+        "extra":"←~입력 시 상대에게 등을 보이는 상태로",
+        "startAt": 162,
+        "endAt": 165
+      },
+      {
+        "name":"민서3~뒤돈 상태",
+        "command":"↘RKLKRK←~",
+        "start_frame":"14",
+        "guard_frame":"-8",
+        "hit_frame":"D",
+        "counter_frame":"D",
+        "range":"중단",
+        "damage":"10,11,27",
+        "extra":"상대에게 등을 보이는 상태로",
+        "startAt": 162,
+        "endAt": 165
       },
       {
         "name":"민서 로우",
@@ -463,7 +558,9 @@
         "counter_frame":"D",
         "range":"하단",
         "damage":"10,11,20",
-        "extra":""
+        "extra":"",
+        "startAt": 168,
+        "endAt": 171
       },
       {
         "name":"프랑켄슈타이너",
@@ -473,8 +570,10 @@
         "hit_frame":"-7",
         "counter_frame":"-7",
         "range":"특수 중단",
-        "damage":"15(,30)",
-        "extra":"근거리 정면 히트 시 잡기로"
+        "damage":"15,30",
+        "extra":"근거리 정면 히트 시 잡기로",
+        "startAt": 172,
+        "endAt": 176
       },
       {
         "name":"잽",
@@ -485,7 +584,9 @@
         "counter_frame":"+6",
         "range":"특수 하단",
         "damage":"5",
-        "extra":""
+        "extra":"",
+        "startAt": 178,
+        "endAt": 181
       },
       {
         "name":"잽~어퍼컷",
@@ -496,7 +597,9 @@
         "counter_frame":"+5",
         "range":"중단",
         "damage":"5,13",
-        "extra":""
+        "extra":"",
+        "startAt": 178,
+        "endAt": 181
       },
       {
         "name":"스톰프",
@@ -507,7 +610,9 @@
         "counter_frame":"+1",
         "range":"하단",
         "damage":"12",
-        "extra":""
+        "extra":"",
+        "startAt": 182,
+        "endAt": 184
       },
       {
         "name":"아틀라스 해머",
@@ -518,7 +623,9 @@
         "counter_frame":"A",
         "range":"중단",
         "damage":"21",
-        "extra":""
+        "extra":"",
+        "startAt": 182,
+        "endAt": 184
       },
       {
         "name":"스태거 킥스1",
