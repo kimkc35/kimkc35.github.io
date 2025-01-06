@@ -1,0 +1,60 @@
+{
+  "main": {
+    "empty": "현재 비어있습니다.",
+    "drawer": {
+      "login": "로그인",
+      "moveList": "기술 리스트",
+      "tips": "팁 게시판",
+      "searchPlayer": "전적 검색"
+    }
+  },
+  "tip": {
+    "hintText": "자신만의 팁을 공유해 주세요!",
+    "emptyTextError": "내용을 입력해 주세요.",
+    "error": "에러가 발생했습니다.",
+    "selfLikeError": "본인의 게시물엔 좋아요를 누를 수 없습니다.",
+    "loading": "로딩중...",
+    "loginError": "로그인이 되지 않았습니다.",
+    "mostPopular": "인기순",
+    "latest": "최신순"
+  },
+  "searchPlayer": {
+    "name": "이름",
+    "polarisId": "폴라리스 Id",
+    "verified": "인증",
+    "loading": "검색중...",
+    "hintText": "플레이어 검색",
+    "noTextError": "검색어를 입력해 주세요."
+  },
+  "details": {
+    "profile": "프로필",
+    "history": "전적",
+    "polarisId": "폴라리스 Id",
+    "winRate": "승률",
+    "prowess": "철권력",
+    "characters": "캐릭터",
+    "character": "캐릭터",
+    "matches": "매치 수",
+    "rank": "랭크"
+  },
+  "setting": {
+    "title": "설정",
+    "changeFont": "폰트 바꾸기",
+    "close": "닫기"
+  },
+  "bookmark": {
+    "title": "즐겨찾기 한 플레이어",
+    "noBookmarkedPlayer": "즐겨찾기 한 플에이어가 없습니다!"
+  },
+  "description": {
+    "title": "설명",
+    "close": "닫기"
+  },
+  "memo": {
+    "hintText": "원하는 내용을 입력하세요!",
+    "close": "닫기"
+  },
+  "patchNote": {
+    "title": "패치노트"
+  }
+}
